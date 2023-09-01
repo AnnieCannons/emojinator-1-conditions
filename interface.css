@@ -1,62 +1,77 @@
 * {
-    font-family: 'Montserrat', sans-serif;
-text-transform: uppercase;
-
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
 }
 
 body {
-margin: 0;
-padding: 0;
-background-color: black;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
 }
 
 .head {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    background-image: url(https://wallpapers.com/images/hd/a-full-screen-of-dope-emojis-gj44b7jj1a2ujjih.jpg);
+    animation: scroll 50s linear infinite;
     border: 3px solid black;
     height: 100px;
     margin: 20px 30px;
     position: relative;
-    box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412;
+    box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23,
+        0 0 15px #acf412;
     border-radius: 30px;
     max-width: 1000px;
+}
 
-    
+@keyframes scroll {
+    100% {
+        background-position: 0px -400%;
+    }
 }
 
 h1 {
     font-size: 50px;
     margin: 10px 0px 2px 0px;
-    text-shadow: 0 0 5px #000000, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412;
+    text-shadow: 0 0 5px #000000, 0 0 8px#448e25, 0 0 10px #72bc23,
+        0 0 15px #acf412;
     color: white;
 }
 
 h3 {
     margin: 2px 0px 5px 0px 0px;
-    text-shadow: 0 0 3px #000000, 0 0 5px#66cf39, 0 0 8px #acf412;
-    color: white;
+    text-shadow: 0 0 3px #000000, 0 0 5px#000000, 0 0 8px #acf412, 0 0 10px #acf412;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.35);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
 }
 
 .container {
+    
+      background-image: url(https://wallpapers.com/images/hd/a-full-screen-of-dope-emojis-gj44b7jj1a2ujjih.jpg);
+    animation: scroll 5s linear infinite;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 650px;
+   height: 800px;
     margin: 40px 30px;
     border: 3px solid black;
-    box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412, 0 0 20px white;
+    box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23,
+        0 0 15px #acf412, 0 0 20px white;
     border-radius: 50px;
     max-width: 1000px;
 }
 
 #emoji {
     font-size: 0px;
-
 }
-
 
 button {
     display: flex;
@@ -68,30 +83,26 @@ button {
     border: none;
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.187);
-    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 5px yellow, 0 0 7px yellow; 
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 5px yellow, 0 0 7px yellow;
     box-shadow: 0 0 2px black, 0 0 5px blue, 0 0 8px white, 0 0 15px white;
     color: white;
-   
-   
 }
 
-
 button:hover {
-    box-shadow: 0 0 3px blue, 0 0 5px white, 0 0 8px white, 0 0 15px white, 0 0 20px white;
-    text-shadow: 0 0 3px yellow, 0 0 6px blue; 
+    box-shadow: 0 0 3px blue, 0 0 5px white, 0 0 8px white, 0 0 15px white,
+        0 0 20px white;
+    text-shadow: 0 0 3px yellow, 0 0 6px blue;
     cursor: pointer;
-   
 }
 
 button:hover #emoji {
     font-size: 16px;
     letter-spacing: 1px;
     color: white;
-
 }
 
 button:hover #click {
-   font-size: 0px;
+    font-size: 0px;
 }
 
 #answer {
@@ -99,20 +110,32 @@ button:hover #click {
     margin: 40px 0px;
     display: flex;
     flex-wrap: wrap;
-    font-size: 200px; 
-    font-weight: bold; 
-    color: black; 
-    text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white, 0 0 20px white; 
-    background-image: linear-gradient(to right bottom, #053713, #20611f, #448e25, #72bc23, #acf412);
-    box-shadow: 0 0 6px rgb(0, 0, 0), 0 0 8px black, 0 0 10px white,  0 0 13px white, 0 0 16px white, 0 0 20px white, 0 0 25px white;
+    font-size: 200px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white,
+        0 0 20px white;
+    background-image: linear-gradient(to right bottom,
+            #053713,
+            #20611f,
+            #448e25,
+            #72bc23,
+            #acf412);
+    box-shadow: 0 0 6px rgb(0, 0, 0), 0 0 8px black, 0 0 10px white,
+        0 0 13px white, 0 0 16px white, 0 0 20px white, 0 0 25px white;
     justify-content: center;
     align-content: center;
-    width: 400px;
-    height: 400px;
+    min-height: 450px;
+    min-width: 450px;
+    max-width: 600px;
+    max-height: 600px;
+    width: 95%;
+    height: 70%;
     border-radius: 50%;
 }
 
 .reset {
+    margin-bottom: 20px;
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -123,9 +146,44 @@ button:hover #click {
 
 .reset:hover {
     transform: scale(1.2);
-    background-image: linear-gradient(to right top, #053713, #20611f, #448e25, #72bc23, #acf412);
+    background-image: linear-gradient(to right top,
+            #053713,
+            #20611f,
+            #448e25,
+            #72bc23,
+            #acf412);
     box-shadow: 0 0 5px white, 0 0 9px;
     color: white;
-    cursor:wait;
-
+    cursor: wait;
 }
+
+
+
+@media (min-width: 200px) and (max-width: 600px) {
+ 
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .head, .container {
+        min-width: 200px;
+        overflow: hidden;
+    }
+
+    #answer {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        ;
+    }
+
+    }
+
+   
