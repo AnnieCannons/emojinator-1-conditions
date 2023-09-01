@@ -1,0 +1,49 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+
+}
+
+body {
+margin: 0;
+padding: 0;
+
+}
+
+
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 3px black, 0 0 5px black, 0 0 8px black, 0 0 11px blue;
+}
+
+#answer {
+    margin: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 200px; 
+    font-weight: bold; 
+    color: black; 
+    text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white, 0 0 20px white; 
+    background-image: linear-gradient(to right bottom, #053713, #20611f, #448e25, #72bc23, #a8eb12);
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    height: 400px;
+}
