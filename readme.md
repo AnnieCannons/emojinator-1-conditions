@@ -25,7 +25,7 @@ But **before you can start with that**, you'll need to make sure your `index.htm
 
 1. Add the following line to your `index.html` file, above the code comments.
 
-``` html
+```html
 <script src="./logic.js">
 ```
 
@@ -33,7 +33,7 @@ This will execute your business logic file whenever the page is loaded in a brow
 
 2. Next, _after_ the above line (but still before the code comments), add the following `script` tag to execute your interface code:
 
-``` html
+```html
 <script src="./interface.js">
 ```
 
@@ -43,7 +43,7 @@ The **logic file** (which we've named `logic.js`, but which _could_ be called an
 
 The **interface file** (which we've named `interface.js`, but which _could_ be called anything) will contain code for getting input from and output to the user. It will need to get answers from functions you create in the **logic file**, since it will not be in charge of functionality itself . This is why it should be loaded _after_. If it were loaded first, those logic functions wouldn't exist yet! (With a note that we _could_ use hoisting to avoid caring about order, depending on whether we're using function expressions or function declarations.)
 
-Finally, the **testing files** (loaded into the page last, below the code comments) are there to run your **logic functions**, to make sure that you're getting the specified functionality.  They will help you by telling you _exactly_ what your functions should expect for **input**, what they **should output**, what they're **currently outputting** if you haven't completed the task yet, and letting you know **when you have completed the task**.
+Finally, the **testing files** (loaded into the page last, below the code comments) are there to run your **logic functions**, to make sure that you're getting the specified functionality. They will help you by telling you _exactly_ what your functions should expect for **input**, what they **should output**, what they're **currently outputting** if you haven't completed the task yet, and letting you know **when you have completed the task**.
 
 #### What Does The App Actually DO?
 
