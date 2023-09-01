@@ -7,7 +7,7 @@ text-transform: uppercase;
 body {
 margin: 0;
 padding: 0;
-background-color: beige;
+background-color: black;
 
 }
 
@@ -18,18 +18,24 @@ background-color: beige;
     align-items: center; 
     border: 3px solid black;
     height: 100px;
-    margin: 10px;
+    margin: 20px 30px;
     position: relative;
+    box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412;
+    border-radius: 30px;
 
     
 }
 
 h1 {
     margin: 10px 0px 2px 0px;
+    text-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412;
+    color: white;
 }
 
 h3 {
     margin: 2px 0px 5px 0px 0px;
+    text-shadow: 0 0 3px #54c052, 0 0 5px#66cf39, 0 0 8px #acf412;
+    color: white;
 }
 
 .container {
@@ -37,9 +43,11 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;
-    margin: 10px;
+    height: 650px;
+    margin: 40px 30px;
     border: 3px solid black;
+    box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412, 0 0 20px white;
+    border-radius: 50px;
 }
 
 #click {
@@ -47,29 +55,32 @@ h3 {
 }
 
 button {
-    position: relative;
-    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
     background-color: white;
-    padding: 0px 15px;
+    width: 220px;
+    height: 60px;
     border: none;
     border-radius: 50px;
     background-color: black;
-    text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow; 
-    box-shadow: 0 0 3px black, 0 0 5px black, 0 0 8px blue;
+    text-shadow: 0 0 2px yellow, 0 0 5px yellow, 0 0 7px yellow; 
+    box-shadow: 0 0 2px blue, 0 0 5px blue, 0 0 8px white, 0 0 15px white;
+   
 }
 
 
 button:hover {
-    box-shadow: 0 0 3px black, 0 0 5px black, 0 0 8px black, 0 0 15px blue;
+    box-shadow: 0 0 3px blue, 0 0 5px white, 0 0 8px white, 0 0 15px white, 0 0 20px white;
     text-shadow: 0 0 3px yellow, 0 0 6px blue; 
     cursor: pointer;
-    padding: 9px 10px;
 
 }
 
 button:hover #click {
-   font-size: 30px;
-   letter-spacing: 3px;
+   font-size: 16px;
+   letter-spacing: 1px;
    color: white;
 
 }
@@ -88,7 +99,7 @@ button:hover #emojis {
     color: black; 
     text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white, 0 0 20px white; 
     background-image: linear-gradient(to right bottom, #053713, #20611f, #448e25, #72bc23, #acf412);
-    box-shadow: 0 0 5px black, 0 0 9px black, 0 0 15px black, 0 0 20px black;
+    box-shadow: 0 0 6px blue, 0 0 8px black, 0 0 15px white, 0 0 20px white;
     justify-content: center;
     align-content: center;
     width: 400px;
@@ -97,8 +108,19 @@ button:hover #emojis {
 }
 
 .reset {
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
-    color: black;
-    background: greenyellow;
-    box-shadow: 0 0 3px black, 0 0 5px black;
+    color: white;
+    background-image: linear-gradient(to right top, #06240e, #379836, #67e431);
+    box-shadow: 0 0 2px blue, 0 0 5px black, 0 0 7px white;
+}
+
+.reset:hover {
+    transform: scale(1.2);
+    background-image: linear-gradient(to right top, #053713, #20611f, #448e25, #72bc23, #acf412);
+    box-shadow: 0 0 5px white, 0 0 9px;
+    color: white;
+    cursor:wait;
+
 }
