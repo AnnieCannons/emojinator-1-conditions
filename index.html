@@ -23,19 +23,25 @@
   <h3>To use our emoji picker, click the button</h3>
   </div>
   <div class="container">
-  <button onclick="results()"><p id="emojis">
-    ❤️
-    🫶
-    ✨
-    🔥
-    <span id="click">👉Click!</span>
-    💀
-    ✅
-    👉
-    😊
-    </p>
-    </button>
-    <p id="answer"></p>
+    <div id="answer">
+    <p ><button id ="emoji" onclick="results()"><p id="emojis">
+      ❤️
+      🫶
+      ✨
+      🔥
+      <span id="click">👉Click!👈</span>
+      💀
+      ✅
+      👉
+      😊
+      </p>
+      </button></p>
+      
     </div>
+
+    <!--reset button to start the generator again -->
+    <input type="button" class="reset" value="reset" onClick="window.location.reload()">
+    </div>
+    
 </body>
 </html>

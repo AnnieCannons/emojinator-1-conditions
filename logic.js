@@ -1,7 +1,7 @@
 // Add your business logic functions below!
 /*
 else if (input.toLowerCase() === ''){
-    return alert(''), console.log(`%c `, style), document.write(getById
+    return ''
     }
 */
 

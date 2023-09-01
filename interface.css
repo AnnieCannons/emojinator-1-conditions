@@ -47,27 +47,31 @@ h3 {
 }
 
 button {
-    font-size: 15px;
+    position: relative;
+    font-size: 16px;
     background-color: white;
-    padding: 10px;
+    padding: 0px 15px;
     border: none;
     border-radius: 50px;
-    margin: 20px 0px;
-    box-shadow: 0 0 3px black, 0 0 5px black, 0 0 8px black, 0 0 15px black, 0 0 20px blue;
+    background-color: black;
+    text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow; 
+    box-shadow: 0 0 3px black, 0 0 5px black, 0 0 8px blue;
 }
 
 
 button:hover {
-    transform: scale(1.4);
-    box-shadow: 0 0 3px black, 0 0 5px black, 0 0 8px black, 0 0 15px black, 0 0 20px blue;
-    text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white, 0 0 20px white; 
-    margin: 30px;
+    box-shadow: 0 0 3px black, 0 0 5px black, 0 0 8px black, 0 0 15px blue;
+    text-shadow: 0 0 3px yellow, 0 0 6px blue; 
     cursor: pointer;
+    padding: 9px 10px;
+
 }
 
 button:hover #click {
-   font-size: 25px;
+   font-size: 30px;
    letter-spacing: 3px;
+   color: white;
+
 }
 
 button:hover #emojis {
@@ -75,6 +79,7 @@ button:hover #emojis {
 }
 
 #answer {
+    position: relative;
     margin: 40px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -82,11 +87,18 @@ button:hover #emojis {
     font-weight: bold; 
     color: black; 
     text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white, 0 0 20px white; 
-    background-image: linear-gradient(to right bottom, #053713, #20611f, #448e25, #72bc23, #a8eb12);
+    background-image: linear-gradient(to right bottom, #053713, #20611f, #448e25, #72bc23, #acf412);
     box-shadow: 0 0 5px black, 0 0 9px black, 0 0 15px black, 0 0 20px black;
     justify-content: center;
     align-content: center;
     width: 400px;
     height: 400px;
     border-radius: 50%;
+}
+
+.reset {
+    border-radius: 50px;
+    color: black;
+    background: greenyellow;
+    box-shadow: 0 0 3px black, 0 0 5px black;
 }
