@@ -8,7 +8,6 @@ body {
 margin: 0;
 padding: 0;
 background-color: black;
-
 }
 
 .head {
@@ -22,19 +21,21 @@ background-color: black;
     position: relative;
     box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412;
     border-radius: 30px;
+    max-width: 1000px;
 
     
 }
 
 h1 {
+    font-size: 50px;
     margin: 10px 0px 2px 0px;
-    text-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412;
+    text-shadow: 0 0 5px #000000, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412;
     color: white;
 }
 
 h3 {
     margin: 2px 0px 5px 0px 0px;
-    text-shadow: 0 0 3px #54c052, 0 0 5px#66cf39, 0 0 8px #acf412;
+    text-shadow: 0 0 3px #000000, 0 0 5px#66cf39, 0 0 8px #acf412;
     color: white;
 }
 
@@ -48,25 +49,29 @@ h3 {
     border: 3px solid black;
     box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23, 0 0 15px #acf412, 0 0 20px white;
     border-radius: 50px;
+    max-width: 1000px;
 }
 
-#click {
+#emoji {
     font-size: 0px;
+
 }
+
 
 button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
-    background-color: white;
+    font-size: 22px;
     width: 220px;
     height: 60px;
     border: none;
     border-radius: 50px;
-    background-color: black;
-    text-shadow: 0 0 2px yellow, 0 0 5px yellow, 0 0 7px yellow; 
-    box-shadow: 0 0 2px blue, 0 0 5px blue, 0 0 8px white, 0 0 15px white;
+    background-color: rgba(0, 0, 0, 0.187);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 5px yellow, 0 0 7px yellow; 
+    box-shadow: 0 0 2px black, 0 0 5px blue, 0 0 8px white, 0 0 15px white;
+    color: white;
+   
    
 }
 
@@ -75,18 +80,18 @@ button:hover {
     box-shadow: 0 0 3px blue, 0 0 5px white, 0 0 8px white, 0 0 15px white, 0 0 20px white;
     text-shadow: 0 0 3px yellow, 0 0 6px blue; 
     cursor: pointer;
+   
+}
+
+button:hover #emoji {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
 
 }
 
 button:hover #click {
-   font-size: 16px;
-   letter-spacing: 1px;
-   color: white;
-
-}
-
-button:hover #emojis {
-    font-size: 0px;
+   font-size: 0px;
 }
 
 #answer {
@@ -99,7 +104,7 @@ button:hover #emojis {
     color: black; 
     text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white, 0 0 20px white; 
     background-image: linear-gradient(to right bottom, #053713, #20611f, #448e25, #72bc23, #acf412);
-    box-shadow: 0 0 6px blue, 0 0 8px black, 0 0 15px white, 0 0 20px white;
+    box-shadow: 0 0 6px rgb(0, 0, 0), 0 0 8px black, 0 0 10px white,  0 0 13px white, 0 0 16px white, 0 0 20px white, 0 0 25px white;
     justify-content: center;
     align-content: center;
     width: 400px;
@@ -113,7 +118,7 @@ button:hover #emojis {
     border-radius: 50px;
     color: white;
     background-image: linear-gradient(to right top, #06240e, #379836, #67e431);
-    box-shadow: 0 0 2px blue, 0 0 5px black, 0 0 7px white;
+    box-shadow: 0 0 2px white, 0 0 5px black, 0 0 7px rgb(0, 0, 0), 0 0 10px white;
 }
 
 .reset:hover {
