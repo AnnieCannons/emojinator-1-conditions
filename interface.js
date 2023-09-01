@@ -34,4 +34,3 @@ function results() {
 
 //function to reset the emoji generator which can be called on when clicking the 'reset' button in the html file
 
-

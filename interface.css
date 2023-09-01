@@ -16,7 +16,9 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url(https://wallpapers.com/images/hd/a-full-screen-of-dope-emojis-gj44b7jj1a2ujjih.jpg);
-    animation: scroll 50s linear infinite;
+    animation: scroll 100s linear infinite;
+    background-repeat: repeat;
+    background-size: 80%;
     border: 3px solid black;
     height: 100px;
     margin: 20px 30px;
@@ -29,7 +31,7 @@ body {
 
 @keyframes scroll {
     100% {
-        background-position: 0px -400%;
+        background-position: 1000px -500%;
     }
 }
 
@@ -55,7 +57,9 @@ h3 {
 .container {
     
       background-image: url(https://wallpapers.com/images/hd/a-full-screen-of-dope-emojis-gj44b7jj1a2ujjih.jpg);
-    animation: scroll 5s linear infinite;
+    animation: scroll 100s linear infinite;
+    background-repeat: repeat;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,7 +131,7 @@ button:hover #click {
     align-content: center;
     min-height: 450px;
     min-width: 450px;
-    max-width: 600px;
+    max-width: 550px;
     max-height: 600px;
     width: 95%;
     height: 70%;
@@ -135,7 +139,7 @@ button:hover #click {
 }
 
 .reset {
-    margin-bottom: 20px;
+  
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -143,6 +147,25 @@ button:hover #click {
     background-image: linear-gradient(to right top, #06240e, #379836, #67e431);
     box-shadow: 0 0 2px white, 0 0 5px black, 0 0 7px rgb(0, 0, 0), 0 0 10px white;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 10px;
+
+}
+
+.run {
+  
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    color: white;
+    background-image: linear-gradient(to right top, #06240e, #379836, #67e431);
+    box-shadow: 0 0 2px white, 0 0 5px black, 0 0 7px rgb(0, 0, 0), 0 0 10px white;
+}
+
 
 .reset:hover {
     transform: scale(1.2);
@@ -153,10 +176,36 @@ button:hover #click {
             #72bc23,
             #acf412);
     box-shadow: 0 0 5px white, 0 0 9px;
+    
     color: white;
     cursor: wait;
 }
 
+#answer:hover {
+    background-image: linear-gradient(to left top,
+    #053713,
+    #20611f,
+    #448e25,
+    #72bc23,
+    #acf412);
+    transition-delay: 1s ease;
+    transform: scale(1.05);
+     
+}
+
+
+.run:hover {
+    transform: scale(1.2);
+    background-image: linear-gradient(to right top,
+    #053713,
+    #20611f,
+    #448e25,
+    #72bc23,
+    #acf412);
+    box-shadow: 0 0 5px white, 0 0 9px;
+    color: white;
+    cursor:alias;
+}
 
 
 @media (min-width: 200px) and (max-width: 600px) {

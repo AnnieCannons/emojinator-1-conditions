@@ -593,6 +593,186 @@ function getEmoji(input) {
         return '⌚';
     } else if (input.toLowerCase() === 'cd') {
         return '💿';
+    } else if (input.toLowerCase() === 'man') {
+        return '👨';
+    } else if (input.toLowerCase() === 'woman') {
+        return '👩';
+    } else if (input.toLowerCase() === 'boy') {
+        return '👦';
+    } else if (input.toLowerCase() === 'girl') {
+        return '👧';
+    } else if (input.toLowerCase() === 'baby') {
+        return '👶';
+    } else if (input.toLowerCase() === 'person') {
+        return '🧑';
+    } else if (input.toLowerCase() === 'older man') {
+        return '👴';
+    } else if (input.toLowerCase() === 'older woman') {
+        return '👵';
+    } else if (input.toLowerCase() === 'man with beard') {
+        return '🧔';
+    } else if (input.toLowerCase() === 'woman with headscarf') {
+        return '🧕';
+    } else if (input.toLowerCase() === 'man in tuxedo') {
+        return '🤵';
+    } else if (input.toLowerCase() === 'bride') {
+        return '👰';
+    } else if (input.toLowerCase() === 'person in wheelchair') {
+        return '🧑‍🦽';
+    } else if (input.toLowerCase() === 'person with cane') {
+        return '🧑‍🦯';
+    } else if (input.toLowerCase() === 'person running') {
+        return '🏃';
+    } else if (input.toLowerCase() === 'person swimming') {
+        return '🏊';
+    } else if (input.toLowerCase() === 'person biking') {
+        return '🚴';
+    } else if (input.toLowerCase() === 'person with umbrella') {
+        return '🌂';
+    } else if (input.toLowerCase() === 'family') {
+        return '👨‍👩‍👦';
+    } else if (input.toLowerCase() === 'christmas') {
+        return '🎄';
+    } else if (input.toLowerCase() === 'halloween') {
+        return '🎃';
+    } else if (input.toLowerCase() === 'easter') {
+        return '🐰';
+    } else if (input.toLowerCase() === 'valentine') {
+        return '❤️';
+    } else if (input.toLowerCase() === 'birthday') {
+        return '🎂';
+    } else if (input.toLowerCase() === 'fireworks') {
+        return '🎆';
+    } else if (input.toLowerCase() === 'new year') {
+        return '🎉';
+    } else if (input.toLowerCase() === 'thanksgiving') {
+        return '🦃';
+    } else if (input.toLowerCase() === 'july 4th') {
+        return '🇺🇸';
+    } else if (input.toLowerCase() === 'easter egg') {
+        return '🥚';
+    } else if (input.toLowerCase() === 'gift') {
+        return '🎁';
+    } else if (input.toLowerCase() === 'firecracker') {
+        return '🧨';
+    } else if (input.toLowerCase() === 'party') {
+        return '🥳';
+    } else if (input.toLowerCase() === 'santa claus') {
+        return '🎅';
+    } else if (input.toLowerCase() === 'ghost') {
+        return '👻';
+    } else if (input.toLowerCase() === 'pumpkin') {
+        return '🎃';
+    } else if (input.toLowerCase() === 'egg') {
+        return '🥚';
+    } else if (input.toLowerCase() === 'heart') {
+        return '❤️';
+    } else if (input.toLowerCase() === 'turkey') {
+        return '🦃';
+    } else if (input.toLowerCase() === 'sun') {
+        return '☀️';
+    } else if (input.toLowerCase() === 'sunny') {
+        return '🌞';
+    } else if (input.toLowerCase() === 'sunrise') {
+        return '🌅';
+    } else if (input.toLowerCase() === 'sunset') {
+        return '🌇';
+    } else if (input.toLowerCase() === 'partly cloudy') {
+        return '⛅';
+    } else if (input.toLowerCase() === 'cloudy') {
+        return '☁️';
+    } else if (input.toLowerCase() === 'rainy') {
+        return '🌧️';
+    } else if (input.toLowerCase() === 'thunderstorm') {
+        return '⛈️';
+    } else if (input.toLowerCase() === 'snowy') {
+        return '🌨️';
+    } else if (input.toLowerCase() === 'windy') {
+        return '🌬️';
+    } else if (input.toLowerCase() === 'hot') {
+        return '🔥';
+    } else if (input.toLowerCase() === 'cold') {
+        return '❄️';
+    } else if (input.toLowerCase() === 'umbrella') {
+        return '☂️';
+    } else if (input.toLowerCase() === 'thermometer') {
+        return '🌡️';
+    } else if (input.toLowerCase() === 'car') {
+        return '🚗';
+    } else if (input.toLowerCase() === 'truck') {
+        return '🚚';
+    } else if (input.toLowerCase() === 'bus') {
+        return '🚌';
+    } else if (input.toLowerCase() === 'motorcycle') {
+        return '🏍️';
+    } else if (input.toLowerCase() === 'bicycle') {
+        return '🚲';
+    } else if (input.toLowerCase() === 'taxi') {
+        return '🚕';
+    } else if (input.toLowerCase() === 'police car') {
+        return '🚓';
+    } else if (input.toLowerCase() === 'ambulance') {
+        return '🚑';
+    } else if (input.toLowerCase() === 'fire truck') {
+        return '🚒';
+    } else if (input.toLowerCase() === 'delivery truck') {
+        return '🚚';
+    } else if (input.toLowerCase() === 'construction vehicle') {
+        return '🚧';
+    } else if (input.toLowerCase() === 'minibus') {
+        return '🚐';
+    } else if (input.toLowerCase() === 'racing car') {
+        return '🏎️';
+    } else if (input.toLowerCase() === 'scooter') {
+        return '🛴';
+    } else if (input.toLowerCase() === 'rocket') {
+        return '🚀';
+    } else if (input.toLowerCase() === 'train') {
+        return '🚆';
+    } else if (input.toLowerCase() === 'tram') {
+        return '🚊';
+    } else if (input.toLowerCase() === 'metro') {
+        return '🚇';
+    } else if (input.toLowerCase() === 'ferry') {
+        return '⛴️';
+    } else if (input.toLowerCase() === 'house') {
+        return '🏠';
+    } else if (input.toLowerCase() === 'apartment') {
+        return '🏢';
+    } else if (input.toLowerCase() === 'office building') {
+        return '🏢';
+    } else if (input.toLowerCase() === 'hospital') {
+        return '🏥';
+    } else if (input.toLowerCase() === 'school') {
+        return '🏫';
+    } else if (input.toLowerCase() === 'bank') {
+        return '🏦';
+    } else if (input.toLowerCase() === 'store') {
+        return '🏬';
+    } else if (input.toLowerCase() === 'hotel') {
+        return '🏨';
+    } else if (input.toLowerCase() === 'mansion') {
+        return '🏰';
+    } else if (input.toLowerCase() === 'castle') {
+        return '🏰';
+    } else if (input.toLowerCase() === 'tent') {
+        return '⛺';
+    } else if (input.toLowerCase() === 'church') {
+        return '⛪';
+    } else if (input.toLowerCase() === 'mosque') {
+        return '🕌';
+    } else if (input.toLowerCase() === 'synagogue') {
+        return '🕍';
+    } else if (input.toLowerCase() === 'shinto shrine') {
+        return '⛩️';
+    } else if (input.toLowerCase() === 'factory') {
+        return '🏭';
+    } else if (input.toLowerCase() === 'construction site') {
+        return '🏗️';
+    } else if (input.toLowerCase() === 'cityscape') {
+        return '🌆';
+    } else if (input.toLowerCase() === 'suburb') {
+        return '🏘️';
     } 
 
     else {
