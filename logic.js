@@ -309,8 +309,8 @@ function getEmoji(input) {
         return '🙋';
     } else if (input.toLowerCase() === 'waving hand') {
         return '👋';
-    } else if (input.toLowerCase() === 'peace sign') {
-        return '✌️';
+    } else if (input.toLowerCase() === 'peace') {
+        return '🤝';
     } else if (input.toLowerCase() === 'ok hand') {
         return '👌';
     } else if (input.toLowerCase() === 'victory') {
@@ -451,7 +451,150 @@ function getEmoji(input) {
         return '🧘';
     } else if (input.toLowerCase() === 'skateboarding') {
         return '🛹';
+    } else if (input.toLowerCase() === 'warning') {
+        return '⚠️';
+    } else if (input.toLowerCase() === 'no entry') {
+        return '⛔';
+    } else if (input.toLowerCase() === 'stop') {
+        return '🛑';
+    } else if (input.toLowerCase() === 'no smoking') {
+        return '🚭';
+    } else if (input.toLowerCase() === 'recycle') {
+        return '♻️';
+    } else if (input.toLowerCase() === 'biohazard') {
+        return '☣️';
+    } else if (input.toLowerCase() === 'wheelchair') {
+        return '♿';
+    } else if (input.toLowerCase() === 'restroom') {
+        return '🚻';
+    } else if (input.toLowerCase() === 'atm') {
+        return '🏧';
+    } else if (input.toLowerCase() === 'parking') {
+        return '🅿️';
+    } else if (input.toLowerCase() === 'male') {
+        return '♂️';
+    } else if (input.toLowerCase() === 'female') {
+        return '♀️';
+    } else if (input.toLowerCase() === 'transgender') {
+        return '⚧️';
+    } else if (input.toLowerCase() === 'infinity') {
+        return '∞';
+    } else if (input.toLowerCase() === 'yin yang') {
+    return '☯️';
+    } else if (input.toLowerCase() === 'wrench') {
+        return '🔧';
+    } else if (input.toLowerCase() === 'hammer') {
+        return '🔨';
+    } else if (input.toLowerCase() === 'screwdriver') {
+        return '🪛';
+    } else if (input.toLowerCase() === 'pliers') {
+        return '🔩';
+    } else if (input.toLowerCase() === 'saw') {
+        return '🪚';
+    } else if (input.toLowerCase() === 'paintbrush') {
+        return '🖌️';
+    } else if (input.toLowerCase() === 'axe') {
+        return '🪓';
+    } else if (input.toLowerCase() === 'knife') {
+        return '🔪';
+    } else if (input.toLowerCase() === 'clamp') {
+        return '🗜️';
+    } else if (input.toLowerCase() === 'toolbox') {
+        return '🧰';
+    } else if (input.toLowerCase() === 'tape measure') {
+        return '📏';
+    } else if (input.toLowerCase() === 'level') {
+        return '📐';
+    } else if (input.toLowerCase() === 'drill') {
+        return '🔌';
+    } else if (input.toLowerCase() === 'screw') {
+        return '🧻';
+    } else if (input.toLowerCase() === 'nail') {
+        return '🔨';
+    } else if (input.toLowerCase() === 'saw') {
+        return '🪚';
+    } else if (input.toLowerCase() === 'hammer and wrench') {
+        return '🛠️';
+    } else if (input.toLowerCase() === 'pick') {
+        return '⛏️';
+    } else if (input.toLowerCase() === 'ladder') {
+        return '🪜';
+    } else if (input.toLowerCase() === 'flower') {
+        return '🌸';
+    } else if (input.toLowerCase() === 'tree') {
+        return '🌳';
+    } else if (input.toLowerCase() === 'leaf') {
+        return '🍃';
+    } else if (input.toLowerCase() === 'sunflower') {
+        return '🌻';
+    } else if (input.toLowerCase() === 'rose') {
+        return '🌹';
+    } else if (input.toLowerCase() === 'tulip') {
+        return '🌷';
+    } else if (input.toLowerCase() === 'cactus') {
+        return '🌵';
+    } else if (input.toLowerCase() === 'palm tree') {
+        return '🌴';
+    } else if (input.toLowerCase() === 'mushroom') {
+        return '🍄';
+    } else if (input.toLowerCase() === 'seedling') {
+        return '🌱';
+    } else if (input.toLowerCase() === 'herb') {
+        return '🌿';
+    } else if (input.toLowerCase() === 'four leaf clover') {
+        return '🍀';
+    } else if (input.toLowerCase() === 'bamboo') {
+        return '🎍';
+    } else if (input.toLowerCase() === 'hibiscus') {
+        return '🌺';
+    } else if (input.toLowerCase() === 'cherry blossom') {
+        return '🌸';
+    } else if (input.toLowerCase() === 'fallen leaf') {
+        return '🍂';
+    } else if (input.toLowerCase() === 'evergreen tree') {
+        return '🌲';
+    } else if (input.toLowerCase() === 'deciduous tree') {
+        return '🌳';
+    } else if (input.toLowerCase() === 'potted plant') {
+        return '🪴';
+    } else if (input.toLowerCase() === 'keyboard') {
+        return '⌨️';
+    } else if (input.toLowerCase() === 'mouse') {
+        return '🖱️';
+    } else if (input.toLowerCase() === 'laptop') {
+        return '👩‍💻';
+    } else if (input.toLowerCase() === 'smartphone') {
+        return '📱';
+    } else if (input.toLowerCase() === 'tablet') {
+        return '📱';
+    } else if (input.toLowerCase() === 'printer') {
+        return '🖨️';
+    } else if (input.toLowerCase() === 'camera') {
+        return '📷';
+    } else if (input.toLowerCase() === 'television') {
+        return '📺';
+    } else if (input.toLowerCase() === 'radio') {
+        return '📻';
+    } else if (input.toLowerCase() === 'headphones') {
+        return '🎧';
+    } else if (input.toLowerCase() === 'microphone') {
+        return '🎤';
+    } else if (input.toLowerCase() === 'telephone') {
+        return '☎️';
+    } else if (input.toLowerCase() === 'game controller') {
+        return '🎮';
+    } else if (input.toLowerCase() === 'battery') {
+        return '🔋';
+    } else if (input.toLowerCase() === 'electric plug') {
+        return '🔌';
+    } else if (input.toLowerCase() === 'tv remote') {
+        return '📺';
+    } else if (input.toLowerCase() === 'watch') {
+        return '⌚';
+    } else if (input.toLowerCase() === 'cd') {
+        return '💿';
     } 
+
     else {
         return `error`;
     }
