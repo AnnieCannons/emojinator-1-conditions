@@ -24,13 +24,17 @@ function results() {
 
     if ((result === 'undefined') || (result === 'error')) {
         alert(`🧐 either that wasn't english or I need to expand my vocabulary...`);
-        document.getElementById("answer").innerHTML = `🙊?`
+        document.getElementById("answer").innerHTML = `🙊`
     }
     else {
         document.getElementById("answer").innerHTML = result;
         console.log(`%c${result}`, style)
     }
 }
+
+
+
+
 
 //function to reset the emoji generator which can be called on when clicking the 'reset' button in the html file
 

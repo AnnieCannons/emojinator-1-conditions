@@ -1,3 +1,5 @@
+
+
 * {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -8,6 +10,7 @@ body {
     padding: 0;
     background-color: black;
     width: 100%;
+
 }
 
 .head {
@@ -43,20 +46,12 @@ h1 {
     color: white;
 }
 
-h3 {
-    margin: 2px 0px 5px 0px 0px;
-    text-shadow: 0 0 3px #000000, 0 0 5px#000000, 0 0 8px #acf412, 0 0 10px #acf412;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.35);
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 50px;
-    text-align: center;
-}
+
+
 
 .container {
-    
-      background-image: url(https://wallpapers.com/images/hd/a-full-screen-of-dope-emojis-gj44b7jj1a2ujjih.jpg);
+
+    background-image: url(https://wallpapers.com/images/hd/a-full-screen-of-dope-emojis-gj44b7jj1a2ujjih.jpg);
     animation: scroll 100s linear infinite;
     background-repeat: repeat;
     background-size: contain;
@@ -64,18 +59,21 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   height: 800px;
+    height: 800px;
     margin: 40px 30px;
     border: 3px solid black;
     box-shadow: 0 0 5px #20611f, 0 0 8px#448e25, 0 0 10px #72bc23,
         0 0 15px #acf412, 0 0 20px white;
     border-radius: 50px;
     max-width: 1000px;
+    overflow: hidden;
 }
 
 #emoji {
     font-size: 0px;
 }
+
+
 
 button {
     display: flex;
@@ -86,17 +84,16 @@ button {
     height: 60px;
     border: none;
     border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.187);
+    background-color: rgba(0, 0, 0, 0.704);
     text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 5px yellow, 0 0 7px yellow;
     box-shadow: 0 0 2px black, 0 0 5px blue, 0 0 8px white, 0 0 15px white;
     color: white;
 }
 
 button:hover {
-    box-shadow: 0 0 3px blue, 0 0 5px white, 0 0 8px white, 0 0 15px white,
-        0 0 20px white;
-    text-shadow: 0 0 3px yellow, 0 0 6px blue;
-    cursor: pointer;
+    text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white;
+    box-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px rgb(0, 72, 255), 0 0 15px blue;
+    background-color: #000000;
 }
 
 button:hover #emoji {
@@ -109,37 +106,27 @@ button:hover #click {
     font-size: 0px;
 }
 
+
 #answer {
     position: relative;
-    margin: 40px 0px;
     display: flex;
     flex-wrap: wrap;
-    font-size: 200px;
+    font-size: 250px;
     font-weight: bold;
     color: black;
-    text-shadow: 0 0 3px yellow, 0 0 6px yellow, 0 0 9px yellow, 0 0 15px white,
-        0 0 20px white;
-    background-image: linear-gradient(to right bottom,
-            #053713,
-            #20611f,
-            #448e25,
-            #72bc23,
-            #acf412);
-    box-shadow: 0 0 6px rgb(0, 0, 0), 0 0 8px black, 0 0 10px white,
-        0 0 13px white, 0 0 16px white, 0 0 20px white, 0 0 25px white;
+    box-shadow: 0 0 20px black, 0 0 30px black, 0 0 50px black;
+    background-color: #0000000c;
     justify-content: center;
     align-content: center;
-    min-height: 450px;
-    min-width: 450px;
     max-width: 550px;
-    max-height: 600px;
+    max-height: 700px;
     width: 95%;
-    height: 70%;
+    height: 65%;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .reset {
-  
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -151,13 +138,12 @@ button:hover #click {
 .footer {
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    margin-bottom: 10px;
-
+    gap: 45vw;
+    margin-top: 80px;
+    max-width: 1000px;
 }
 
 .run {
-  
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -176,63 +162,211 @@ button:hover #click {
             #72bc23,
             #acf412);
     box-shadow: 0 0 5px white, 0 0 9px;
-    
+
     color: white;
     cursor: wait;
 }
 
-#answer:hover {
-    background-image: linear-gradient(to left top,
-    #053713,
-    #20611f,
-    #448e25,
-    #72bc23,
-    #acf412);
-    transition-delay: 1s ease;
-    transform: scale(1.05);
-     
-}
+
 
 
 .run:hover {
     transform: scale(1.2);
     background-image: linear-gradient(to right top,
-    #053713,
-    #20611f,
-    #448e25,
-    #72bc23,
-    #acf412);
+            #053713,
+            #20611f,
+            #448e25,
+            #72bc23,
+            #acf412);
     box-shadow: 0 0 5px white, 0 0 9px;
     color: white;
-    cursor:alias;
+    cursor: alias;
 }
 
-
-@media (min-width: 200px) and (max-width: 600px) {
- 
-    h3 {
-        font-size: 1rem;
-        text-align: center;
+@media (max-width: 600px) {
+    #answer {
+        height: 450px;
+        width: 400px;
     }
+
+    .container {
+        height: 700px;
+    }
+}
+
+@media (max-width: 500px) {
+    #answer {
+
+        height: 300px;
+        width: 300px;
+    }
+    .container {
+        height: 600px;
+    }
+
+    .footer {
+        margin-top: 70px;
+    }
+
+h1 {
+    font-size: 35px;
+}
+}
+
+@media (max-width: 400px) {
+    #answer {
+        box-shadow: 0 0 20px black, 0 0 30px black, 0 0 50px black;
+        min-height: 250px;
+        min-width: 250px;
+    }
+    .container {
+        min-height: 450px;
+        min-width: 350px;
+
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+
+h1 {
+    font-size: 35px;
+}
+
+.head {
+    min-width: 350px;
+}
+}
+/*
+@media (min-width: 200px) and (max-width: 600px) {
+
+    body {
+        margin: 0;
+        height: auto;
+        width: auto;
+        background-color: black;
+    }
+
+       /*HEADER*/
+
+/*
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://i.pinimg.com/1200x/ac/08/b6/ac08b6f45d66d17a9dfc3b59776ab845.jpg);
+        animation: scroll 100s linear infinite;
+        background-repeat: repeat;
+        background-size: 80%;
+        height: 10vh;
+        margin: 25px;
+        border-radius: 50px;
+    }
+    
+    @keyframes scroll {
+        100% {
+            background-position: 1000px -500%;
+        }
+    }
+
+    
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin: 5px;
         text-align: center;
+        text-shadow: 1px 2px 2px #000000, 2px 0px 2px black, -1px 0px 2px black, -2px 0px 2px black, 3px 2px 5px rgb(0, 242, 255), -3px 2px 5px rgb(0, 255, 238);
+    color: white;
     }
 
-    .head, .container {
-        min-width: 200px;
-        overflow: hidden;
+    .head,
+    .container {
+     width: auto;
+    overflow: hidden;
     }
 
-    #answer {
-        width: 100%;
-        height: 100%;
-        border-radius: 0;
-        ;
-    }
 
-    }
-
+       /*MAIN CONTAINER*/ 
+       /*
+    .container {
+    background-image: url(https://wallpapers.com/images/hd/a-full-screen-of-dope-emojis-gj44b7jj1a2ujjih.jpg);
+    animation: scroll 100s linear infinite;
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+        height: 700px; 
+    margin: 15px;
+    border-radius: 50px;
    
+    }
+
+
+
+       /*EMOJI VIEWER*/ 
+/*
+    #answer {
+        display: flex;
+        font-size: 250px;
+        width: 80vw;
+        height: 55vh;
+        border-radius: 200px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        box-shadow:0 10px 10px 0  black, 0 5px 250px 60px black, 0 0 100px black;
+        background-color: #0000000c;
+        text-shadow: 0 0 5px white, 0px 0px 100px black, 0px 0px 200px black, 0px 0px 300px black, 0 0 30px black, 0 2px 40px black;
+      
+        
+    }
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: bolder;
+    font-size: 30px;
+    letter-spacing: 3px;
+    width: 220px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 2px rgb(0, 0, 0), 0 0 4px rgb(255, 255, 255), 0 0 9px rgb(255, 255, 255);;
+    box-shadow: 0 0 100px rgb(0, 0, 0), 0 0 60px rgb(0, 0, 0), 0 0 9px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(0, 0, 0), 0 2px 55px black;
+    color: rgb(0, 0, 0);
+    
+}
+
+button #emoji {
+    display: none;
+}
+
+   /*FOOTER*/ 
+
+/*
+    .reset, .run {
+        border-radius: 50px;
+        border: 2px white solid;
+        height: 65px;
+        width: 65px;
+        color: white;
+        text-shadow: 0 0 1px black, 0 0 3px black, 0 0 5px blue;
+        
+    }
+
+.reset {
+    background-image: linear-gradient(to right top, #000000, #fbff2c);
+    box-shadow: 0 0 1px blue, 0 0 3px black,  -4px 4px 9px white;
+   
+}
+
+.run {
+    background-image: linear-gradient(to left top, #000000, #67e431);
+    box-shadow: 0 0 1px blue, 0 0 3px black, 4px 4px 9px white;
+ 
+}
+}
