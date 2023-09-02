@@ -811,9 +811,7 @@ function getEmoji(input) {
         return '🤪';
     } else if (input.toLowerCase() === 'hug') {
         return '🤗';
-    }
-
-    else {
+    } else {
         return `error`;
     }
 }
