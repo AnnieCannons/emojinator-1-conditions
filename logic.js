@@ -773,7 +773,45 @@ function getEmoji(input) {
         return '🌆';
     } else if (input.toLowerCase().trim() === 'suburb') {
         return '🏘️';
-    } 
+    } else if (input.toLowerCase() === 'happy') {
+        return '😃';
+    } else if (input.toLowerCase() === 'laughing') {
+        return '😂';
+    } else if (input.toLowerCase() === 'love') {
+        return '❤️';
+    } else if (input.toLowerCase() === 'sad') {
+        return '😞';
+    } else if (input.toLowerCase() === 'angry') {
+        return '😡';
+    } else if (input.toLowerCase() === 'crying') {
+        return '😢';
+    } else if (input.toLowerCase() === 'surprised') {
+        return '😮';
+    } else if (input.toLowerCase() === 'confused') {
+        return '😕';
+    } else if (input.toLowerCase() === 'excited') {
+        return '😁';
+    } else if (input.toLowerCase() === 'shocked') {
+        return '😱';
+    } else if (input.toLowerCase() === 'winking') {
+        return '😉';
+    } else if (input.toLowerCase() === 'blushing') {
+        return '😊';
+    } else if (input.toLowerCase() === 'worried') {
+        return '😟';
+    } else if (input.toLowerCase() === 'disappointed') {
+        return '😞';
+    } else if (input.toLowerCase() === 'tired') {
+        return '😫';
+    } else if (input.toLowerCase() === 'relieved') {
+        return '😌';
+    } else if (input.toLowerCase() === 'cool') {
+        return '😎';
+    } else if (input.toLowerCase() === 'silly') {
+        return '🤪';
+    } else if (input.toLowerCase() === 'hug') {
+        return '🤗';
+    }
 
     else {
         return `error`;
