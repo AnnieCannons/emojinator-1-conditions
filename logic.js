@@ -1,777 +1,777 @@
 // Add your business logic functions below!
 /*
-else if ((input.toLowerCase() === '') || (input.toLowerCase() === '') || (input.toLowerCase() === '') || (input.toLowerCase() === '') || (input.toLowerCase() === '')){
+else if ((input.toLowerCase().trim() === '') || (input.toLowerCase().trim() === '') || (input.toLowerCase().trim() === '') || (input.toLowerCase().trim() === '') || (input.toLowerCase().trim() === '')){
     return ''
     }
 
-   else  if (input.toLowerCase() === ''){
+   else  if (input.toLowerCase().trim() === ''){
     return ''
     }
 */
 
 
 function getEmoji(input) {
-    if (input.toLowerCase() === 'smile') {
+    if (input.toLowerCase().trim() === 'smile') {
         return '☺';
-    } else if (input.toLowerCase() === 'frown') {
+    } else if (input.toLowerCase().trim() === 'frown') {
         return '☹';
-    } else if (input.toLowerCase() === 'heart') {
+    } else if (input.toLowerCase().trim() === 'heart') {
         return '❤';
-    } else if (input.toLowerCase() === 'star') {
+    } else if (input.toLowerCase().trim() === 'star') {
         return '⭐';
-    } else if (input.toLowerCase() === 'spinosaur') {
+    } else if (input.toLowerCase().trim() === 'spinosaur') {
         return null;
-    } else if (input.toLowerCase() === 'robo t-rex') {
+    } else if (input.toLowerCase().trim() === 'robo t-rex') {
         return null;
-    } else if ((input.toLowerCase() === 'stressed') || (input.toLowerCase() === 'overwhelmed') || (input.toLowerCase() === 'maxed')) {
+    } else if ((input.toLowerCase().trim() === 'stressed') || (input.toLowerCase().trim() === 'overwhelmed') || (input.toLowerCase().trim() === 'maxed')) {
         return '🫠'
-    } else if ((input.toLowerCase() === 'tired') || (input.toLowerCase() === 'exhausted') ||(input.toLowerCase() === 'sleepy')){
+    } else if ((input.toLowerCase().trim() === 'tired') || (input.toLowerCase().trim() === 'exhausted') ||(input.toLowerCase().trim() === 'sleepy')){
         return '🪫'
-    } else if ((input.toLowerCase() === 'sick') || (input.toLowerCase() === 'ill') ||(input.toLowerCase() === 'sickness')){
+    } else if ((input.toLowerCase().trim() === 'sick') || (input.toLowerCase().trim() === 'ill') ||(input.toLowerCase().trim() === 'sickness')){
         return '🤒'
-    } else if ((input.toLowerCase() === 'covid') || (input.toLowerCase() === 'covid19') ||(input.toLowerCase() === 'coronavirus')){
+    } else if ((input.toLowerCase().trim() === 'covid') || (input.toLowerCase().trim() === 'covid19') ||(input.toLowerCase().trim() === 'coronavirus')){
         return '😷'
-    } else if ((input.toLowerCase() === 'fire') || (input.toLowerCase() === 'flame') ||(input.toLowerCase() === 'burn')){
+    } else if ((input.toLowerCase().trim() === 'fire') || (input.toLowerCase().trim() === 'flame') ||(input.toLowerCase().trim() === 'burn')){
         return '🔥'
-    } else if ((input.toLowerCase() === 'code') || (input.toLowerCase() === 'coding') || (input.toLowerCase() === 'programming') || (input.toLowerCase() === 'anniecannons') || (input.toLowerCase() === 'mac')){
+    } else if ((input.toLowerCase().trim() === 'code') || (input.toLowerCase().trim() === 'coding') || (input.toLowerCase().trim() === 'programming') || (input.toLowerCase().trim() === 'anniecannons') || (input.toLowerCase().trim() === 'mac')){
         return '💻'
-    } else if ((input.toLowerCase() === 'food') || (input.toLowerCase() === 'dinner') || (input.toLowerCase() === 'lunch') || (input.toLowerCase() === 'breakfast') || (input.toLowerCase() === 'plate') || (input.toLowerCase() === 'silverware')){
+    } else if ((input.toLowerCase().trim() === 'food') || (input.toLowerCase().trim() === 'dinner') || (input.toLowerCase().trim() === 'lunch') || (input.toLowerCase().trim() === 'breakfast') || (input.toLowerCase().trim() === 'plate') || (input.toLowerCase().trim() === 'silverware')){
         return '🍽️'
-    } else if (input.toLowerCase() === 'partly cloudy') {
+    } else if (input.toLowerCase().trim() === 'partly cloudy') {
         return '🌤️';
-    } else if (input.toLowerCase() === 'mostly cloudy') {
+    } else if (input.toLowerCase().trim() === 'mostly cloudy') {
         return '🌥️';
-    } else if (input.toLowerCase() === 'showers') {
+    } else if (input.toLowerCase().trim().trim() === 'showers') {
         return '🌦️';
-    } else if (input.toLowerCase() === 'rainy') {
+    } else if (input.toLowerCase().trim() === 'rainy') {
         return '🌧️';
-    } else if (input.toLowerCase() === 'thunderstorms') {
+    } else if (input.toLowerCase().trim() === 'thunderstorms') {
         return 'Thunderstorms';
-    } else if (input.toLowerCase() === '🌩️ lightning') {
+    } else if (input.toLowerCase().trim() === 'lightning') {
         return '⛈️';
-    } else if (input.toLowerCase() === 'tornado') {
+    } else if (input.toLowerCase().trim() === 'tornado') {
         return '🌪️';
-    } else if (input.toLowerCase() === 'snowy') {
+    } else if (input.toLowerCase().trim() === 'snowy') {
         return '❄️';
-    } else if (input.toLowerCase() === 'snow showers') {
+    } else if (input.toLowerCase().trim() === 'snow showers') {
         return '🌨️';
-    } else if (input.toLowerCase() === 'foggy') {
+    } else if (input.toLowerCase().trim() === 'foggy') {
         return '🌫️';
-    } else if (input.toLowerCase() === 'windy') {
+    } else if (input.toLowerCase().trim() === 'windy') {
         return '🌬️';
-    } else if (input.toLowerCase() === 'wavy') {
+    } else if (input.toLowerCase().trim() === 'wavy') {
         return '🌊';
-    } else if (input.toLowerCase() === 'volcano') {
+    } else if (input.toLowerCase().trim() === 'volcano') {
         return '🌋';
-    } else if (input.toLowerCase() === 'sunrise') {
+    } else if (input.toLowerCase().trim() === 'sunrise') {
         return '🌄';
-    } else if (input.toLowerCase() === 'sunset') {
+    } else if (input.toLowerCase().trim() === 'sunset') {
         return '🌅';
-    } else if ((input.toLowerCase() === 'rainbow') || (input.toLowerCase === 'pride')) {
+    } else if ((input.toLowerCase().trim() === 'rainbow') || (input.toLowerCase === 'pride')) {
         return '🌈';
-    } else if (input.toLowerCase() === 'cyclone') {
+    } else if (input.toLowerCase().trim() === 'cyclone') {
         return '🌀';
-    } else if (input.toLowerCase() === 'hazy') {
+    } else if (input.toLowerCase().trim() === 'hazy') {
         return '🌁';
-    } else if (input.toLowerCase() === ' moon') {
+    } else if (input.toLowerCase().trim() === ' moon') {
         return '🌚';
-    } if (input.toLowerCase() === 'dog') {
+    } if (input.toLowerCase().trim() === 'dog') {
         return '🐶';
-    } else if (input.toLowerCase() === 'cat') {
+    } else if (input.toLowerCase().trim() === 'cat') {
         return '🐱';
-    } else if (input.toLowerCase() === 'lion') {
+    } else if (input.toLowerCase().trim() === 'lion') {
         return '🦁';
-    } else if (input.toLowerCase() === 'tiger') {
+    } else if (input.toLowerCase().trim() === 'tiger') {
         return '🐯';
-    } else if (input.toLowerCase() === 'bear') {
+    } else if (input.toLowerCase().trim() === 'bear') {
         return '🐻';
-    } else if (input.toLowerCase() === 'mouse') {
+    } else if (input.toLowerCase().trim() === 'mouse') {
         return '🐭';
-    } else if (input.toLowerCase() === 'hamster') {
+    } else if (input.toLowerCase().trim() === 'hamster') {
         return '🐹';
-    } else if (input.toLowerCase() === 'rabbit') {
+    } else if (input.toLowerCase().trim() === 'rabbit') {
         return '🐰';
-    } else if (input.toLowerCase() === 'fox') {
+    } else if (input.toLowerCase().trim() === 'fox') {
         return '🦊';
-    } else if (input.toLowerCase() === 'raccoon') {
+    } else if (input.toLowerCase().trim() === 'raccoon') {
         return '🦝';
-    } else if (input.toLowerCase() === 'koala') {
+    } else if (input.toLowerCase().trim() === 'koala') {
         return '🐨';
-    } else if (input.toLowerCase() === 'panda') {
+    } else if (input.toLowerCase().trim() === 'panda') {
         return '🐼';
-    } else if (input.toLowerCase() === 'unicorn') {
+    } else if (input.toLowerCase().trim() === 'unicorn') {
         return '🦄';
-    } else if (input.toLowerCase() === 'horse') {
+    } else if (input.toLowerCase().trim() === 'horse') {
         return '🐴';
-    } else if (input.toLowerCase() === 'cow') {
+    } else if (input.toLowerCase().trim() === 'cow') {
         return '🐮';
-    } else if (input.toLowerCase() === 'pig') {
+    } else if (input.toLowerCase().trim() === 'pig') {
         return '🐷';
-    } else if (input.toLowerCase() === 'chicken') {
+    } else if (input.toLowerCase().trim() === 'chicken') {
         return '🐔';
-    } else if (input.toLowerCase() === 'bird') {
+    } else if (input.toLowerCase().trim() === 'bird') {
         return '🐦';
-    } else if (input.toLowerCase() === 'owl') {
+    } else if (input.toLowerCase().trim() === 'owl') {
         return '🦉';
-    } else if (input.toLowerCase() === 'peacock') {
+    } else if (input.toLowerCase().trim() === 'peacock') {
         return '🦚';
-    } else if (input.toLowerCase() === 'parrot') {
+    } else if (input.toLowerCase().trim() === 'parrot') {
         return '🦜';
-    } else if (input.toLowerCase() === 'swan') {
+    } else if (input.toLowerCase().trim() === 'swan') {
         return '🦢';
-    } else if (input.toLowerCase() === 'turtle') {
+    } else if (input.toLowerCase().trim() === 'turtle') {
         return '🐢';
-    } else if (input.toLowerCase() === 'snake') {
+    } else if (input.toLowerCase().trim() === 'snake') {
         return '🐍';
-    } else if (input.toLowerCase() === 'crocodile') {
+    } else if (input.toLowerCase().trim() === 'crocodile') {
         return '🐊';
-    } else if (input.toLowerCase() === 'lizard') {
+    } else if (input.toLowerCase().trim() === 'lizard') {
         return '🦎';
-    } else if (input.toLowerCase() === 'fish') {
+    } else if (input.toLowerCase().trim() === 'fish') {
         return '🐟';
-    } else if (input.toLowerCase() === 'shark') {
+    } else if (input.toLowerCase().trim() === 'shark') {
         return '🦈';
-    } else if (input.toLowerCase() === 'whale') {
+    } else if (input.toLowerCase().trim() === 'whale') {
         return '🐋';
-    } else if (input.toLowerCase() === 'octopus') {
+    } else if (input.toLowerCase().trim() === 'octopus') {
         return '🐙';
-    } else if (input.toLowerCase() === 'pizza') {
+    } else if (input.toLowerCase().trim() === 'pizza') {
         return '🍕';
-    } else if (input.toLowerCase() === 'hamburger') {
+    } else if (input.toLowerCase().trim() === 'hamburger') {
         return '🍔';
-    } else if (input.toLowerCase() === 'hotdog') {
+    } else if (input.toLowerCase().trim() === 'hotdog') {
         return '🌭';
-    } else if (input.toLowerCase() === 'taco') {
+    } else if (input.toLowerCase().trim() === 'taco') {
         return '🌮';
-    } else if (input.toLowerCase() === 'burrito') {
+    } else if (input.toLowerCase().trim() === 'burrito') {
         return '🌯';
-    } else if (input.toLowerCase() === 'sushi') {
+    } else if (input.toLowerCase().trim() === 'sushi') {
         return '🍣';
-    } else if (input.toLowerCase() === 'rice') {
+    } else if (input.toLowerCase().trim() === 'rice') {
         return '🍚';
-    } else if (input.toLowerCase() === 'noodle') {
+    } else if (input.toLowerCase().trim() === 'noodle') {
         return '🍜';
-    } else if (input.toLowerCase() === 'spaghetti') {
+    } else if (input.toLowerCase().trim() === 'spaghetti') {
         return '🍝';
-    } else if (input.toLowerCase() === 'french fries') {
+    } else if (input.toLowerCase().trim() === 'french fries') {
         return '🍟';
-    } else if (input.toLowerCase() === 'doughnut') {
+    } else if (input.toLowerCase().trim() === 'doughnut') {
         return '🍩';
-    } else if (input.toLowerCase() === 'cookie') {
+    } else if (input.toLowerCase().trim() === 'cookie') {
         return '🍪';
-    } else if (input.toLowerCase() === 'cake') {
+    } else if (input.toLowerCase().trim() === 'cake') {
         return '🍰';
-    } else if (input.toLowerCase() === 'ice cream') {
+    } else if (input.toLowerCase().trim() === 'ice cream') {
         return '🍦';
-    } else if (input.toLowerCase() === 'popcorn') {
+    } else if (input.toLowerCase().trim() === 'popcorn') {
         return '🍿';
-    } else if (input.toLowerCase() === 'coffee') {
+    } else if (input.toLowerCase().trim() === 'coffee') {
         return '☕';
-    } else if (input.toLowerCase() === 'tea') {
+    } else if (input.toLowerCase().trim() === 'tea') {
         return '🍵';
-    } else if (input.toLowerCase() === 'beer') {
+    } else if (input.toLowerCase().trim() === 'beer') {
         return '🍺';
-    } else if (input.toLowerCase() === 'wine') {
+    } else if (input.toLowerCase().trim() === 'wine') {
         return '🍷';
-    } else if (input.toLowerCase() === 'cocktail') {
+    } else if (input.toLowerCase().trim() === 'cocktail') {
         return '🍸';
-    } else if (input.toLowerCase() === 'apple') {
+    } else if (input.toLowerCase().trim() === 'apple') {
         return '🍎';
-    } else if (input.toLowerCase() === 'banana') {
+    } else if (input.toLowerCase().trim() === 'banana') {
         return '🍌';
-    } else if (input.toLowerCase() === 'strawberry') {
+    } else if (input.toLowerCase().trim() === 'strawberry') {
         return '🍓';
-    } else if (input.toLowerCase() === 'tomato') {
+    } else if (input.toLowerCase().trim() === 'tomato') {
         return '🍅';
-    } else if (input.toLowerCase() === 'carrot') {
+    } else if (input.toLowerCase().trim() === 'carrot') {
         return '🥕';
-    } else if (input.toLowerCase() === 'broccoli') {
+    } else if (input.toLowerCase().trim() === 'broccoli') {
         return '🥦';
-    } else if (input.toLowerCase() === 'cheese') {
+    } else if (input.toLowerCase().trim() === 'cheese') {
         return '🧀';
-    } else if (input.toLowerCase() === 'honey') {
+    } else if (input.toLowerCase().trim() === 'honey') {
         return '🍯';
-    } else if (input.toLowerCase() === 'bread') {
+    } else if (input.toLowerCase().trim() === 'bread') {
         return '🍞';
-    } else if (input.toLowerCase() === 'movie') {
+    } else if (input.toLowerCase().trim() === 'movie') {
         return '🎬';
-    } else if (input.toLowerCase() === 'music') {
+    } else if (input.toLowerCase().trim() === 'music') {
         return '🎵';
-    } else if (input.toLowerCase() === 'game') {
+    } else if (input.toLowerCase().trim() === 'game') {
         return '🎮';
-    } else if (input.toLowerCase() === 'book') {
+    } else if (input.toLowerCase().trim() === 'book') {
         return '📖';
-    } else if (input.toLowerCase() === 'ticket') {
+    } else if (input.toLowerCase().trim() === 'ticket') {
         return '🎫';
-    } else if (input.toLowerCase() === 'clapper') {
+    } else if (input.toLowerCase().trim() === 'clapper') {
         return '🎬';
-    } else if (input.toLowerCase() === 'popcorn') {
+    } else if (input.toLowerCase().trim() === 'popcorn') {
         return '🍿';
-    } else if (input.toLowerCase() === 'camera') {
+    } else if (input.toLowerCase().trim() === 'camera') {
         return '📷';
-    } else if (input.toLowerCase() === 'microphone') {
+    } else if (input.toLowerCase().trim() === 'microphone') {
         return '🎤';
-    } else if (input.toLowerCase() === 'guitar') {
+    } else if (input.toLowerCase().trim() === 'guitar') {
         return '🎸';
-    } else if (input.toLowerCase() === 'video game') {
+    } else if (input.toLowerCase().trim() === 'video game') {
         return '🕹️';
-    } else if (input.toLowerCase() === 'headphones') {
+    } else if (input.toLowerCase().trim() === 'headphones') {
         return '🎧';
-    } else if (input.toLowerCase() === 'art') {
+    } else if (input.toLowerCase().trim() === 'art') {
         return '🎨';
-    } else if (input.toLowerCase() === 'dance') {
+    } else if (input.toLowerCase().trim() === 'dance') {
         return '💃';
-    } else if (input.toLowerCase() === 'carousel') {
+    } else if (input.toLowerCase().trim() === 'carousel') {
         return '🎠';
-    } else if (input.toLowerCase() === 'slot machine') {
+    } else if (input.toLowerCase().trim() === 'slot machine') {
         return '🎰';
-    } else if (input.toLowerCase() === 'bowling') {
+    } else if (input.toLowerCase().trim() === 'bowling') {
         return '🎳';
-    } else if (input.toLowerCase() === 'jigsaw') {
+    } else if (input.toLowerCase().trim() === 'jigsaw') {
         return '🧩';
-    } else if (input.toLowerCase() === 'magic') {
+    } else if (input.toLowerCase().trim() === 'magic') {
         return '🪄';
-    } else if (input.toLowerCase() === 'home') {
+    } else if (input.toLowerCase().trim() === 'home') {
         return '🏡';
-    } else if (input.toLowerCase() === 'office') {
+    } else if (input.toLowerCase().trim() === 'office') {
         return '🏢';
-    } else if (input.toLowerCase() === 'hospital') {
+    } else if (input.toLowerCase().trim() === 'hospital') {
         return '🏥';
-    } else if (input.toLowerCase() === 'park') {
+    } else if (input.toLowerCase().trim() === 'park') {
         return '🏞️';
-    } else if (input.toLowerCase() === 'beach') {
+    } else if (input.toLowerCase().trim() === 'beach') {
         return '🏖️';
-    } else if (input.toLowerCase() === 'mountain') {
+    } else if (input.toLowerCase().trim() === 'mountain') {
         return '⛰️';
-    } else if (input.toLowerCase() === 'city') {
+    } else if (input.toLowerCase().trim() === 'city') {
         return '🏙️';
-    } else if (input.toLowerCase() === 'desert') {
+    } else if (input.toLowerCase().trim() === 'desert') {
         return '🏜️';
-    } else if (input.toLowerCase() === 'campground') {
+    } else if (input.toLowerCase().trim() === 'campground') {
         return '⛺';
-    } else if (input.toLowerCase() === 'restaurant') {
+    } else if (input.toLowerCase().trim() === 'restaurant') {
         return '🍽️';
-    } else if (input.toLowerCase() === 'cafe') {
+    } else if (input.toLowerCase().trim() === 'cafe') {
         return '☕';
-    } else if (input.toLowerCase() === 'bank') {
+    } else if (input.toLowerCase().trim() === 'bank') {
         return '🏦';
-    } else if (input.toLowerCase() === 'post office') {
+    } else if (input.toLowerCase().trim() === 'post office') {
         return '🏣';
-    } else if (input.toLowerCase() === 'hotel') {
+    } else if (input.toLowerCase().trim() === 'hotel') {
         return '🏨';
-    } else if (input.toLowerCase() === 'airport') {
+    } else if (input.toLowerCase().trim() === 'airport') {
         return '🛫';
-    } else if (input.toLowerCase() === 'train station') {
+    } else if (input.toLowerCase().trim() === 'train station') {
         return '🚉';
-    } else if (input.toLowerCase() === 'bus stop') {
+    } else if (input.toLowerCase().trim() === 'bus stop') {
         return '🚏';
-    } else if (input.toLowerCase() === 'gas station') {
+    } else if (input.toLowerCase().trim() === 'gas station') {
         return '⛽';
-    } else if (input.toLowerCase() === 'happy') {
+    } else if (input.toLowerCase().trim() === 'happy') {
         return '😃';
-    } else if (input.toLowerCase() === 'sad') {
+    } else if (input.toLowerCase().trim() === 'sad') {
         return '😢';
-    } else if (input.toLowerCase() === 'angry') {
+    } else if (input.toLowerCase().trim() === 'angry') {
         return '😠';
-    } else if (input.toLowerCase() === 'surprised') {
+    } else if (input.toLowerCase().trim() === 'surprised') {
         return '😮';
-    } else if (input.toLowerCase() === 'laughing') {
+    } else if (input.toLowerCase().trim() === 'laughing') {
         return '😂';
-    } else if (input.toLowerCase() === 'crying') {
+    } else if (input.toLowerCase().trim() === 'crying') {
         return '😭';
-    } else if (input.toLowerCase() === 'smiling') {
+    } else if (input.toLowerCase().trim() === 'smiling') {
         return '🙂';
-    } else if (input.toLowerCase() === 'winking') {
+    } else if (input.toLowerCase().trim() === 'winking') {
         return '😉';
-    } else if (input.toLowerCase() === 'confused') {
+    } else if (input.toLowerCase().trim() === 'confused') {
         return '😕';
-    } else if (input.toLowerCase() === 'shocked') {
+    } else if (input.toLowerCase().trim() === 'shocked') {
         return '😲';
-    } else if (input.toLowerCase() === 'tongue') {
+    } else if (input.toLowerCase().trim() === 'tongue') {
         return '😛';
-    } else if (input.toLowerCase() === 'cool') {
+    } else if (input.toLowerCase().trim() === 'cool') {
         return '😎';
-    } else if (input.toLowerCase() === 'love') {
+    } else if (input.toLowerCase().trim() === 'love') {
         return '😍';
-    } else if (input.toLowerCase() === 'embarrassed') {
+    } else if (input.toLowerCase().trim() === 'embarrassed') {
         return '😳';
-    } else if (input.toLowerCase() === 'crazy') {
+    } else if (input.toLowerCase().trim() === 'crazy') {
         return '🤪';
-    } else if (input.toLowerCase() === 'dead') {
+    } else if (input.toLowerCase().trim() === 'dead') {
         return '💀';
-    } else if (input.toLowerCase() === 'thumbs up') {
+    } else if (input.toLowerCase().trim() === 'thumbs up') {
         return '👍';
-    } else if (input.toLowerCase() === 'thumbs down') {
+    } else if (input.toLowerCase().trim() === 'thumbs down') {
         return '👎';
-    } else if (input.toLowerCase() === 'clapping') {
+    } else if (input.toLowerCase().trim() === 'clapping') {
         return '👏';
-    } else if (input.toLowerCase() === 'raising hand') {
+    } else if (input.toLowerCase().trim() === 'raising hand') {
         return '🙋';
-    } else if (input.toLowerCase() === 'waving hand') {
+    } else if (input.toLowerCase().trim() === 'waving hand') {
         return '👋';
-    } else if (input.toLowerCase() === 'peace') {
+    } else if (input.toLowerCase().trim() === 'peace') {
         return '🤝';
-    } else if (input.toLowerCase() === 'ok hand') {
+    } else if (input.toLowerCase().trim() === 'ok hand') {
         return '👌';
-    } else if (input.toLowerCase() === 'victory') {
+    } else if (input.toLowerCase().trim() === 'victory') {
         return '✌️';
-    } else if (input.toLowerCase() === 'fist bump') {
+    } else if (input.toLowerCase().trim() === 'fist bump') {
         return '🤜🤛';
-    } else if (input.toLowerCase() === 'praying') {
+    } else if (input.toLowerCase().trim() === 'praying') {
         return '🙏';
-    } else if (input.toLowerCase() === 'rock on') {
+    } else if (input.toLowerCase().trim() === 'rock on') {
         return '🤘';
-    } else if (input.toLowerCase() === 'shaka') {
+    } else if (input.toLowerCase().trim() === 'shaka') {
         return '🤙';
-    } else if (input.toLowerCase() === 'pointing up') {
+    } else if (input.toLowerCase().trim() === 'pointing up') {
         return '☝️';
-    } else if (input.toLowerCase() === 'pointing down') {
+    } else if (input.toLowerCase().trim() === 'pointing down') {
         return '👇';
-    } else if (input.toLowerCase() === 'pointing left') {
+    } else if (input.toLowerCase().trim() === 'pointing left') {
         return '👈';
-    } else if (input.toLowerCase() === 'pointing right') {
+    } else if (input.toLowerCase().trim() === 'pointing right') {
         return '👉';
-    } else if (input.toLowerCase() === 'book') {
+    } else if (input.toLowerCase().trim() === 'book') {
         return '📚';
-    } else if (input.toLowerCase() === 'notebook') {
+    } else if (input.toLowerCase().trim() === 'notebook') {
         return '📓';
-    } else if (input.toLowerCase() === 'pencil') {
+    } else if (input.toLowerCase().trim() === 'pencil') {
         return '✏️';
-    } else if (input.toLowerCase() === 'school') {
+    } else if (input.toLowerCase().trim() === 'school') {
         return '🏫';
-    } else if (input.toLowerCase() === 'teacher') {
+    } else if (input.toLowerCase().trim() === 'teacher') {
         return '👩‍🏫';
-    } else if (input.toLowerCase() === 'student') {
+    } else if (input.toLowerCase().trim() === 'student') {
         return '👨‍🎓';
-    } else if (input.toLowerCase() === 'graduation') {
+    } else if (input.toLowerCase().trim() === 'graduation') {
         return '🎓';
-    } else if (input.toLowerCase() === 'classroom') {
+    } else if (input.toLowerCase().trim() === 'classroom') {
         return '🎒';
-    } else if (input.toLowerCase() === 'microscope') {
+    } else if (input.toLowerCase().trim() === 'microscope') {
         return '🔬';
-    } else if (input.toLowerCase() === 'test') {
+    } else if (input.toLowerCase().trim() === 'test') {
         return '📝';
-    } else if (input.toLowerCase() === 'calculator') {
+    } else if (input.toLowerCase().trim() === 'calculator') {
         return '🧮';
-    } else if (input.toLowerCase() === 'map') {
+    } else if (input.toLowerCase().trim() === 'map') {
         return '🗺️';
-    } else if (input.toLowerCase() === 'globe') {
+    } else if (input.toLowerCase().trim() === 'globe') {
         return '🌍';
-    } else if (input.toLowerCase() === 'computer') {
+    } else if (input.toLowerCase().trim() === 'computer') {
         return '💻';
-    } else if (input.toLowerCase() === 'art supplies') {
+    } else if (input.toLowerCase().trim() === 'art supplies') {
         return '🎨';
-    } else if (input.toLowerCase() === 'backpack') {
+    } else if (input.toLowerCase().trim() === 'backpack') {
         return '🎒';
-    } else if (input.toLowerCase() === 'library') {
+    } else if (input.toLowerCase().trim() === 'library') {
         return '📖';
-    } else if (input.toLowerCase() === 'clock') {
+    } else if (input.toLowerCase().trim() === 'clock') {
         return '🕰️';
-    } else if (input.toLowerCase() === 'math') {
+    } else if (input.toLowerCase().trim() === 'math') {
         return '➗';
-    } else if (input.toLowerCase() === 't-shirt') {
+    } else if (input.toLowerCase().trim() === 't-shirt') {
         return '👕';
-    } else if (input.toLowerCase() === 'jeans') {
+    } else if (input.toLowerCase().trim() === 'jeans') {
         return '👖';
-    } else if (input.toLowerCase() === 'dress') {
+    } else if (input.toLowerCase().trim() === 'dress') {
         return '👗';
-    } else if (input.toLowerCase() === 'shoe') {
+    } else if (input.toLowerCase().trim() === 'shoe') {
         return '👟';
-    } else if (input.toLowerCase() === 'sandal') {
+    } else if (input.toLowerCase().trim() === 'sandal') {
         return '👡';
-    } else if (input.toLowerCase() === 'high heel') {
+    } else if (input.toLowerCase().trim() === 'high heel') {
         return '👠';
-    } else if (input.toLowerCase() === 'boot') {
+    } else if (input.toLowerCase().trim() === 'boot') {
         return '👢';
-    } else if (input.toLowerCase() === 'hat') {
+    } else if (input.toLowerCase().trim() === 'hat') {
         return '🎩';
-    } else if (input.toLowerCase() === 'gloves') {
+    } else if (input.toLowerCase().trim() === 'gloves') {
         return '🧤';
-    } else if (input.toLowerCase() === 'scarf') {
+    } else if (input.toLowerCase().trim() === 'scarf') {
         return '🧣';
-    } else if (input.toLowerCase() === 'socks') {
+    } else if (input.toLowerCase().trim() === 'socks') {
         return '🧦';
-    } else if (input.toLowerCase() === 'coat') {
+    } else if (input.toLowerCase().trim() === 'coat') {
         return '🧥';
-    } else if (input.toLowerCase() === 'umbrella') {
+    } else if (input.toLowerCase().trim() === 'umbrella') {
         return '☂️';
-    } else if (input.toLowerCase() === 'tie') {
+    } else if (input.toLowerCase().trim() === 'tie') {
         return '👔';
-    } else if (input.toLowerCase() === 'jacket') {
+    } else if (input.toLowerCase().trim() === 'jacket') {
         return '🧥';
-    } else if (input.toLowerCase() === 'pajamas') {
+    } else if (input.toLowerCase().trim() === 'pajamas') {
         return '🩰';
-    } else if (input.toLowerCase() === 'glasses') {
+    } else if (input.toLowerCase().trim() === 'glasses') {
         return '👓';
-    } else if (input.toLowerCase() === 'crown') {
+    } else if (input.toLowerCase().trim() === 'crown') {
         return '👑';
-    } else if (input.toLowerCase() === 'jewelry') {
+    } else if (input.toLowerCase().trim() === 'jewelry') {
         return '💎';
-    }  else if (input.toLowerCase() === 'sunglasses') {
+    }  else if (input.toLowerCase().trim() === 'sunglasses') {
         return '🕶️';
-    } else if (input.toLowerCase() === 'watch') {
+    } else if (input.toLowerCase().trim() === 'watch') {
         return '⌚';
-    } else if (input.toLowerCase() === 'ring') {
+    } else if (input.toLowerCase().trim() === 'ring') {
         return '💍';
-    } else if (input.toLowerCase() === 'soccer') {
+    } else if (input.toLowerCase().trim() === 'soccer') {
         return '⚽';
-    } else if (input.toLowerCase() === 'basketball') {
+    } else if (input.toLowerCase().trim() === 'basketball') {
         return '🏀';
-    } else if (input.toLowerCase() === 'football') {
+    } else if (input.toLowerCase().trim() === 'football') {
         return '🏈';
-    } else if (input.toLowerCase() === 'baseball') {
+    } else if (input.toLowerCase().trim() === 'baseball') {
         return '⚾';
-    } else if (input.toLowerCase() === 'tennis') {
+    } else if (input.toLowerCase().trim() === 'tennis') {
         return '🎾';
-    } else if (input.toLowerCase() === 'golf') {
+    } else if (input.toLowerCase().trim() === 'golf') {
         return '⛳';
-    } else if (input.toLowerCase() === 'bowling') {
+    } else if (input.toLowerCase().trim() === 'bowling') {
         return '🎳';
-    } else if (input.toLowerCase() === 'swimming') {
+    } else if (input.toLowerCase().trim() === 'swimming') {
         return '🏊';
-    } else if (input.toLowerCase() === 'surfing') {
+    } else if (input.toLowerCase().trim() === 'surfing') {
         return '🏄';
-    } else if (input.toLowerCase() === 'skiing') {
+    } else if (input.toLowerCase().trim() === 'skiing') {
         return '⛷️';
-    } else if (input.toLowerCase() === 'snowboarding') {
+    } else if (input.toLowerCase().trim() === 'snowboarding') {
         return '🏂';
-    } else if (input.toLowerCase() === 'biking') {
+    } else if (input.toLowerCase().trim() === 'biking') {
         return '🚴';
-    } else if (input.toLowerCase() === 'running') {
+    } else if (input.toLowerCase().trim() === 'running') {
         return '🏃';
-    } else if (input.toLowerCase() === 'weightlifting') {
+    } else if (input.toLowerCase().trim() === 'weightlifting') {
         return '🏋️';
-    } else if (input.toLowerCase() === 'boxing') {
+    } else if (input.toLowerCase().trim() === 'boxing') {
         return '🥊';
-    } else if (input.toLowerCase() === 'fishing') {
+    } else if (input.toLowerCase().trim() === 'fishing') {
         return '🎣';
-    } else if (input.toLowerCase() === 'hiking') {
+    } else if (input.toLowerCase().trim() === 'hiking') {
         return '🥾';
-    } else if (input.toLowerCase() === 'yoga') {
+    } else if (input.toLowerCase().trim() === 'yoga') {
         return '🧘';
-    } else if (input.toLowerCase() === 'skateboarding') {
+    } else if (input.toLowerCase().trim() === 'skateboarding') {
         return '🛹';
-    } else if (input.toLowerCase() === 'warning') {
+    } else if (input.toLowerCase().trim() === 'warning') {
         return '⚠️';
-    } else if (input.toLowerCase() === 'no entry') {
+    } else if (input.toLowerCase().trim() === 'no entry') {
         return '⛔';
-    } else if (input.toLowerCase() === 'stop') {
+    } else if (input.toLowerCase().trim() === 'stop') {
         return '🛑';
-    } else if (input.toLowerCase() === 'no smoking') {
+    } else if (input.toLowerCase().trim() === 'no smoking') {
         return '🚭';
-    } else if (input.toLowerCase() === 'recycle') {
+    } else if (input.toLowerCase().trim() === 'recycle') {
         return '♻️';
-    } else if (input.toLowerCase() === 'biohazard') {
+    } else if (input.toLowerCase().trim() === 'biohazard') {
         return '☣️';
-    } else if (input.toLowerCase() === 'wheelchair') {
+    } else if (input.toLowerCase().trim() === 'wheelchair') {
         return '♿';
-    } else if (input.toLowerCase() === 'restroom') {
+    } else if (input.toLowerCase().trim() === 'restroom') {
         return '🚻';
-    } else if (input.toLowerCase() === 'atm') {
+    } else if (input.toLowerCase().trim() === 'atm') {
         return '🏧';
-    } else if (input.toLowerCase() === 'parking') {
+    } else if (input.toLowerCase().trim() === 'parking') {
         return '🅿️';
-    } else if (input.toLowerCase() === 'male') {
+    } else if (input.toLowerCase().trim() === 'male') {
         return '♂️';
-    } else if (input.toLowerCase() === 'female') {
+    } else if (input.toLowerCase().trim() === 'female') {
         return '♀️';
-    } else if (input.toLowerCase() === 'transgender') {
+    } else if (input.toLowerCase().trim() === 'transgender') {
         return '⚧️';
-    } else if (input.toLowerCase() === 'infinity') {
+    } else if (input.toLowerCase().trim() === 'infinity') {
         return '∞';
-    } else if (input.toLowerCase() === 'yin yang') {
+    } else if (input.toLowerCase().trim() === 'yin yang') {
     return '☯️';
-    } else if (input.toLowerCase() === 'wrench') {
+    } else if (input.toLowerCase().trim() === 'wrench') {
         return '🔧';
-    } else if (input.toLowerCase() === 'hammer') {
+    } else if (input.toLowerCase().trim() === 'hammer') {
         return '🔨';
-    } else if (input.toLowerCase() === 'screwdriver') {
+    } else if (input.toLowerCase().trim() === 'screwdriver') {
         return '🪛';
-    } else if (input.toLowerCase() === 'pliers') {
+    } else if (input.toLowerCase().trim() === 'pliers') {
         return '🔩';
-    } else if (input.toLowerCase() === 'saw') {
+    } else if (input.toLowerCase().trim() === 'saw') {
         return '🪚';
-    } else if (input.toLowerCase() === 'paintbrush') {
+    } else if (input.toLowerCase().trim() === 'paintbrush') {
         return '🖌️';
-    } else if (input.toLowerCase() === 'axe') {
+    } else if (input.toLowerCase().trim() === 'axe') {
         return '🪓';
-    } else if (input.toLowerCase() === 'knife') {
+    } else if (input.toLowerCase().trim() === 'knife') {
         return '🔪';
-    } else if (input.toLowerCase() === 'clamp') {
+    } else if (input.toLowerCase().trim() === 'clamp') {
         return '🗜️';
-    } else if (input.toLowerCase() === 'toolbox') {
+    } else if (input.toLowerCase().trim() === 'toolbox') {
         return '🧰';
-    } else if (input.toLowerCase() === 'tape measure') {
+    } else if (input.toLowerCase().trim() === 'tape measure') {
         return '📏';
-    } else if (input.toLowerCase() === 'level') {
+    } else if (input.toLowerCase().trim() === 'level') {
         return '📐';
-    } else if (input.toLowerCase() === 'drill') {
+    } else if (input.toLowerCase().trim() === 'drill') {
         return '🔌';
-    } else if (input.toLowerCase() === 'screw') {
+    } else if (input.toLowerCase().trim() === 'screw') {
         return '🧻';
-    } else if (input.toLowerCase() === 'nail') {
+    } else if (input.toLowerCase().trim() === 'nail') {
         return '🔨';
-    } else if (input.toLowerCase() === 'saw') {
+    } else if (input.toLowerCase().trim() === 'saw') {
         return '🪚';
-    } else if (input.toLowerCase() === 'hammer and wrench') {
+    } else if (input.toLowerCase().trim() === 'hammer and wrench') {
         return '🛠️';
-    } else if (input.toLowerCase() === 'pick') {
+    } else if (input.toLowerCase().trim() === 'pick') {
         return '⛏️';
-    } else if (input.toLowerCase() === 'ladder') {
+    } else if (input.toLowerCase().trim() === 'ladder') {
         return '🪜';
-    } else if (input.toLowerCase() === 'flower') {
+    } else if (input.toLowerCase().trim() === 'flower') {
         return '🌸';
-    } else if (input.toLowerCase() === 'tree') {
+    } else if (input.toLowerCase().trim() === 'tree') {
         return '🌳';
-    } else if (input.toLowerCase() === 'leaf') {
+    } else if (input.toLowerCase().trim() === 'leaf') {
         return '🍃';
-    } else if (input.toLowerCase() === 'sunflower') {
+    } else if (input.toLowerCase().trim() === 'sunflower') {
         return '🌻';
-    } else if (input.toLowerCase() === 'rose') {
+    } else if (input.toLowerCase().trim() === 'rose') {
         return '🌹';
-    } else if (input.toLowerCase() === 'tulip') {
+    } else if (input.toLowerCase().trim() === 'tulip') {
         return '🌷';
-    } else if (input.toLowerCase() === 'cactus') {
+    } else if (input.toLowerCase().trim() === 'cactus') {
         return '🌵';
-    } else if (input.toLowerCase() === 'palm tree') {
+    } else if (input.toLowerCase().trim() === 'palm tree') {
         return '🌴';
-    } else if (input.toLowerCase() === 'mushroom') {
+    } else if (input.toLowerCase().trim() === 'mushroom') {
         return '🍄';
-    } else if (input.toLowerCase() === 'seedling') {
+    } else if (input.toLowerCase().trim() === 'seedling') {
         return '🌱';
-    } else if (input.toLowerCase() === 'herb') {
+    } else if (input.toLowerCase().trim() === 'herb') {
         return '🌿';
-    } else if (input.toLowerCase() === 'four leaf clover') {
+    } else if (input.toLowerCase().trim() === 'four leaf clover') {
         return '🍀';
-    } else if (input.toLowerCase() === 'bamboo') {
+    } else if (input.toLowerCase().trim() === 'bamboo') {
         return '🎍';
-    } else if (input.toLowerCase() === 'hibiscus') {
+    } else if (input.toLowerCase().trim() === 'hibiscus') {
         return '🌺';
-    } else if (input.toLowerCase() === 'cherry blossom') {
+    } else if (input.toLowerCase().trim() === 'cherry blossom') {
         return '🌸';
-    } else if (input.toLowerCase() === 'fallen leaf') {
+    } else if (input.toLowerCase().trim() === 'fallen leaf') {
         return '🍂';
-    } else if (input.toLowerCase() === 'evergreen tree') {
+    } else if (input.toLowerCase().trim() === 'evergreen tree') {
         return '🌲';
-    } else if (input.toLowerCase() === 'deciduous tree') {
+    } else if (input.toLowerCase().trim() === 'deciduous tree') {
         return '🌳';
-    } else if (input.toLowerCase() === 'potted plant') {
+    } else if (input.toLowerCase().trim() === 'potted plant') {
         return '🪴';
-    } else if (input.toLowerCase() === 'keyboard') {
+    } else if (input.toLowerCase().trim() === 'keyboard') {
         return '⌨️';
-    } else if (input.toLowerCase() === 'mouse') {
+    } else if (input.toLowerCase().trim() === 'mouse') {
         return '🖱️';
-    } else if (input.toLowerCase() === 'laptop') {
+    } else if (input.toLowerCase().trim() === 'laptop') {
         return '👩‍💻';
-    } else if (input.toLowerCase() === 'smartphone') {
+    } else if (input.toLowerCase().trim() === 'smartphone') {
         return '📱';
-    } else if (input.toLowerCase() === 'tablet') {
+    } else if (input.toLowerCase().trim() === 'tablet') {
         return '📱';
-    } else if (input.toLowerCase() === 'printer') {
+    } else if (input.toLowerCase().trim() === 'printer') {
         return '🖨️';
-    } else if (input.toLowerCase() === 'camera') {
+    } else if (input.toLowerCase().trim() === 'camera') {
         return '📷';
-    } else if (input.toLowerCase() === 'television') {
+    } else if (input.toLowerCase().trim() === 'television') {
         return '📺';
-    } else if (input.toLowerCase() === 'radio') {
+    } else if (input.toLowerCase().trim() === 'radio') {
         return '📻';
-    } else if (input.toLowerCase() === 'headphones') {
+    } else if (input.toLowerCase().trim() === 'headphones') {
         return '🎧';
-    } else if (input.toLowerCase() === 'microphone') {
+    } else if (input.toLowerCase().trim() === 'microphone') {
         return '🎤';
-    } else if (input.toLowerCase() === 'telephone') {
+    } else if (input.toLowerCase().trim() === 'telephone') {
         return '☎️';
-    } else if (input.toLowerCase() === 'game controller') {
+    } else if (input.toLowerCase().trim() === 'game controller') {
         return '🎮';
-    } else if (input.toLowerCase() === 'battery') {
+    } else if (input.toLowerCase().trim() === 'battery') {
         return '🔋';
-    } else if (input.toLowerCase() === 'electric plug') {
+    } else if (input.toLowerCase().trim() === 'electric plug') {
         return '🔌';
-    } else if (input.toLowerCase() === 'tv remote') {
+    } else if (input.toLowerCase().trim() === 'tv remote') {
         return '📺';
-    } else if (input.toLowerCase() === 'watch') {
+    } else if (input.toLowerCase().trim() === 'watch') {
         return '⌚';
-    } else if (input.toLowerCase() === 'cd') {
+    } else if (input.toLowerCase().trim() === 'cd') {
         return '💿';
-    } else if (input.toLowerCase() === 'man') {
+    } else if (input.toLowerCase().trim() === 'man') {
         return '👨';
-    } else if (input.toLowerCase() === 'woman') {
+    } else if (input.toLowerCase().trim() === 'woman') {
         return '👩';
-    } else if (input.toLowerCase() === 'boy') {
+    } else if (input.toLowerCase().trim() === 'boy') {
         return '👦';
-    } else if (input.toLowerCase() === 'girl') {
+    } else if (input.toLowerCase().trim() === 'girl') {
         return '👧';
-    } else if (input.toLowerCase() === 'baby') {
+    } else if (input.toLowerCase().trim() === 'baby') {
         return '👶';
-    } else if (input.toLowerCase() === 'person') {
+    } else if (input.toLowerCase().trim() === 'person') {
         return '🧑';
-    } else if (input.toLowerCase() === 'older man') {
+    } else if (input.toLowerCase().trim() === 'older man') {
         return '👴';
-    } else if (input.toLowerCase() === 'older woman') {
+    } else if (input.toLowerCase().trim() === 'older woman') {
         return '👵';
-    } else if (input.toLowerCase() === 'man with beard') {
+    } else if (input.toLowerCase().trim() === 'man with beard') {
         return '🧔';
-    } else if (input.toLowerCase() === 'woman with headscarf') {
+    } else if (input.toLowerCase().trim() === 'woman with headscarf') {
         return '🧕';
-    } else if (input.toLowerCase() === 'man in tuxedo') {
+    } else if (input.toLowerCase().trim() === 'man in tuxedo') {
         return '🤵';
-    } else if (input.toLowerCase() === 'bride') {
+    } else if (input.toLowerCase().trim() === 'bride') {
         return '👰';
-    } else if (input.toLowerCase() === 'person in wheelchair') {
+    } else if (input.toLowerCase().trim() === 'person in wheelchair') {
         return '🧑‍🦽';
-    } else if (input.toLowerCase() === 'person with cane') {
+    } else if (input.toLowerCase().trim() === 'person with cane') {
         return '🧑‍🦯';
-    } else if (input.toLowerCase() === 'person running') {
+    } else if (input.toLowerCase().trim() === 'person running') {
         return '🏃';
-    } else if (input.toLowerCase() === 'person swimming') {
+    } else if (input.toLowerCase().trim() === 'person swimming') {
         return '🏊';
-    } else if (input.toLowerCase() === 'person biking') {
+    } else if (input.toLowerCase().trim() === 'person biking') {
         return '🚴';
-    } else if (input.toLowerCase() === 'person with umbrella') {
+    } else if (input.toLowerCase().trim() === 'person with umbrella') {
         return '🌂';
-    } else if (input.toLowerCase() === 'family') {
+    } else if (input.toLowerCase().trim() === 'family') {
         return '👨‍👩‍👦';
-    } else if (input.toLowerCase() === 'christmas') {
+    } else if (input.toLowerCase().trim() === 'christmas') {
         return '🎄';
-    } else if (input.toLowerCase() === 'halloween') {
+    } else if (input.toLowerCase().trim() === 'halloween') {
         return '🎃';
-    } else if (input.toLowerCase() === 'easter') {
+    } else if (input.toLowerCase().trim() === 'easter') {
         return '🐰';
-    } else if (input.toLowerCase() === 'valentine') {
+    } else if (input.toLowerCase().trim() === 'valentine') {
         return '❤️';
-    } else if (input.toLowerCase() === 'birthday') {
+    } else if (input.toLowerCase().trim() === 'birthday') {
         return '🎂';
-    } else if (input.toLowerCase() === 'fireworks') {
+    } else if (input.toLowerCase().trim() === 'fireworks') {
         return '🎆';
-    } else if (input.toLowerCase() === 'new year') {
+    } else if (input.toLowerCase().trim() === 'new year') {
         return '🎉';
-    } else if (input.toLowerCase() === 'thanksgiving') {
+    } else if (input.toLowerCase().trim() === 'thanksgiving') {
         return '🦃';
-    } else if (input.toLowerCase() === 'july 4th') {
+    } else if (input.toLowerCase().trim() === 'july 4th') {
         return '🇺🇸';
-    } else if (input.toLowerCase() === 'easter egg') {
+    } else if (input.toLowerCase().trim() === 'easter egg') {
         return '🥚';
-    } else if (input.toLowerCase() === 'gift') {
+    } else if (input.toLowerCase().trim() === 'gift') {
         return '🎁';
-    } else if (input.toLowerCase() === 'firecracker') {
+    } else if (input.toLowerCase().trim() === 'firecracker') {
         return '🧨';
-    } else if (input.toLowerCase() === 'party') {
+    } else if (input.toLowerCase().trim() === 'party') {
         return '🥳';
-    } else if (input.toLowerCase() === 'santa claus') {
+    } else if (input.toLowerCase().trim() === 'santa claus') {
         return '🎅';
-    } else if (input.toLowerCase() === 'ghost') {
+    } else if (input.toLowerCase().trim() === 'ghost') {
         return '👻';
-    } else if (input.toLowerCase() === 'pumpkin') {
+    } else if (input.toLowerCase().trim() === 'pumpkin') {
         return '🎃';
-    } else if (input.toLowerCase() === 'egg') {
+    } else if (input.toLowerCase().trim() === 'egg') {
         return '🥚';
-    } else if (input.toLowerCase() === 'heart') {
+    } else if (input.toLowerCase().trim() === 'heart') {
         return '❤️';
-    } else if (input.toLowerCase() === 'turkey') {
+    } else if (input.toLowerCase().trim() === 'turkey') {
         return '🦃';
-    } else if (input.toLowerCase() === 'sun') {
+    } else if (input.toLowerCase().trim() === 'sun') {
         return '☀️';
-    } else if (input.toLowerCase() === 'sunny') {
+    } else if (input.toLowerCase().trim() === 'sunny') {
         return '🌞';
-    } else if (input.toLowerCase() === 'sunrise') {
+    } else if (input.toLowerCase().trim() === 'sunrise') {
         return '🌅';
-    } else if (input.toLowerCase() === 'sunset') {
+    } else if (input.toLowerCase().trim() === 'sunset') {
         return '🌇';
-    } else if (input.toLowerCase() === 'partly cloudy') {
+    } else if (input.toLowerCase().trim() === 'partly cloudy') {
         return '⛅';
-    } else if (input.toLowerCase() === 'cloudy') {
+    } else if (input.toLowerCase().trim() === 'cloudy') {
         return '☁️';
-    } else if (input.toLowerCase() === 'rainy') {
+    } else if (input.toLowerCase().trim() === 'rainy') {
         return '🌧️';
-    } else if (input.toLowerCase() === 'thunderstorm') {
+    } else if (input.toLowerCase().trim() === 'thunderstorm') {
         return '⛈️';
-    } else if (input.toLowerCase() === 'snowy') {
+    } else if (input.toLowerCase().trim() === 'snowy') {
         return '🌨️';
-    } else if (input.toLowerCase() === 'windy') {
+    } else if (input.toLowerCase().trim() === 'windy') {
         return '🌬️';
-    } else if (input.toLowerCase() === 'hot') {
+    } else if (input.toLowerCase().trim() === 'hot') {
         return '🔥';
-    } else if (input.toLowerCase() === 'cold') {
+    } else if (input.toLowerCase().trim() === 'cold') {
         return '❄️';
-    } else if (input.toLowerCase() === 'umbrella') {
+    } else if (input.toLowerCase().trim() === 'umbrella') {
         return '☂️';
-    } else if (input.toLowerCase() === 'thermometer') {
+    } else if (input.toLowerCase().trim() === 'thermometer') {
         return '🌡️';
-    } else if (input.toLowerCase() === 'car') {
+    } else if (input.toLowerCase().trim() === 'car') {
         return '🚗';
-    } else if (input.toLowerCase() === 'truck') {
+    } else if (input.toLowerCase().trim() === 'truck') {
         return '🚚';
-    } else if (input.toLowerCase() === 'bus') {
+    } else if (input.toLowerCase().trim() === 'bus') {
         return '🚌';
-    } else if (input.toLowerCase() === 'motorcycle') {
+    } else if (input.toLowerCase().trim() === 'motorcycle') {
         return '🏍️';
-    } else if (input.toLowerCase() === 'bicycle') {
+    } else if (input.toLowerCase().trim() === 'bicycle') {
         return '🚲';
-    } else if (input.toLowerCase() === 'taxi') {
+    } else if (input.toLowerCase().trim() === 'taxi') {
         return '🚕';
-    } else if (input.toLowerCase() === 'police car') {
+    } else if (input.toLowerCase().trim() === 'police car') {
         return '🚓';
-    } else if (input.toLowerCase() === 'ambulance') {
+    } else if (input.toLowerCase().trim() === 'ambulance') {
         return '🚑';
-    } else if (input.toLowerCase() === 'fire truck') {
+    } else if (input.toLowerCase().trim() === 'fire truck') {
         return '🚒';
-    } else if (input.toLowerCase() === 'delivery truck') {
+    } else if (input.toLowerCase().trim() === 'delivery truck') {
         return '🚚';
-    } else if (input.toLowerCase() === 'construction vehicle') {
+    } else if (input.toLowerCase().trim() === 'construction vehicle') {
         return '🚧';
-    } else if (input.toLowerCase() === 'minibus') {
+    } else if (input.toLowerCase().trim() === 'minibus') {
         return '🚐';
-    } else if (input.toLowerCase() === 'racing car') {
+    } else if (input.toLowerCase().trim() === 'racing car') {
         return '🏎️';
-    } else if (input.toLowerCase() === 'scooter') {
+    } else if (input.toLowerCase().trim() === 'scooter') {
         return '🛴';
-    } else if (input.toLowerCase() === 'rocket') {
+    } else if (input.toLowerCase().trim() === 'rocket') {
         return '🚀';
-    } else if (input.toLowerCase() === 'train') {
+    } else if (input.toLowerCase().trim() === 'train') {
         return '🚆';
-    } else if (input.toLowerCase() === 'tram') {
+    } else if (input.toLowerCase().trim() === 'tram') {
         return '🚊';
-    } else if (input.toLowerCase() === 'metro') {
+    } else if (input.toLowerCase().trim() === 'metro') {
         return '🚇';
-    } else if (input.toLowerCase() === 'ferry') {
+    } else if (input.toLowerCase().trim() === 'ferry') {
         return '⛴️';
-    } else if (input.toLowerCase() === 'house') {
+    } else if (input.toLowerCase().trim() === 'house') {
         return '🏠';
-    } else if (input.toLowerCase() === 'apartment') {
+    } else if (input.toLowerCase().trim() === 'apartment') {
         return '🏢';
-    } else if (input.toLowerCase() === 'office building') {
+    } else if (input.toLowerCase().trim() === 'office building') {
         return '🏢';
-    } else if (input.toLowerCase() === 'hospital') {
+    } else if (input.toLowerCase().trim() === 'hospital') {
         return '🏥';
-    } else if (input.toLowerCase() === 'school') {
+    } else if (input.toLowerCase().trim() === 'school') {
         return '🏫';
-    } else if (input.toLowerCase() === 'bank') {
+    } else if (input.toLowerCase().trim() === 'bank') {
         return '🏦';
-    } else if (input.toLowerCase() === 'store') {
+    } else if (input.toLowerCase().trim() === 'store') {
         return '🏬';
-    } else if (input.toLowerCase() === 'hotel') {
+    } else if (input.toLowerCase().trim() === 'hotel') {
         return '🏨';
-    } else if (input.toLowerCase() === 'mansion') {
+    } else if (input.toLowerCase().trim() === 'mansion') {
         return '🏰';
-    } else if (input.toLowerCase() === 'castle') {
+    } else if (input.toLowerCase().trim() === 'castle') {
         return '🏰';
-    } else if (input.toLowerCase() === 'tent') {
+    } else if (input.toLowerCase().trim() === 'tent') {
         return '⛺';
-    } else if (input.toLowerCase() === 'church') {
+    } else if (input.toLowerCase().trim() === 'church') {
         return '⛪';
-    } else if (input.toLowerCase() === 'mosque') {
+    } else if (input.toLowerCase().trim() === 'mosque') {
         return '🕌';
-    } else if (input.toLowerCase() === 'synagogue') {
+    } else if (input.toLowerCase().trim() === 'synagogue') {
         return '🕍';
-    } else if (input.toLowerCase() === 'shinto shrine') {
+    } else if (input.toLowerCase().trim() === 'shinto shrine') {
         return '⛩️';
-    } else if (input.toLowerCase() === 'factory') {
+    } else if (input.toLowerCase().trim() === 'factory') {
         return '🏭';
-    } else if (input.toLowerCase() === 'construction site') {
+    } else if (input.toLowerCase().trim() === 'construction site') {
         return '🏗️';
-    } else if (input.toLowerCase() === 'cityscape') {
+    } else if (input.toLowerCase().trim() === 'cityscape') {
         return '🌆';
-    } else if (input.toLowerCase() === 'suburb') {
+    } else if (input.toLowerCase().trim() === 'suburb') {
         return '🏘️';
     } 
 
